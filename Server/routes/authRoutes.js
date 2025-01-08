@@ -1,4 +1,5 @@
-﻿// Updated: 2025-12-19 12:03:25 - style(database): implement database API endpoints
+﻿// Updated: 2025-12-19 12:03:30 - perf(api): add dashboard in api
+// Updated: 2025-12-19 12:03:25 - style(database): implement database API endpoints
 import express from 'express';
 import { registerUser, loginUser } from '../controllers/authController.js';
 
@@ -15,3 +16,4 @@ router.post('/register', registerUser);
 router.post('/login', loginUser);
 
 export default router;
+
