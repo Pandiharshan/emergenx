@@ -1,4 +1,5 @@
-﻿// Updated: 2025-12-19 12:28:12 - style(auth): add triage system
+﻿// Updated: 2025-12-19 13:13:56 - perf(api): update api UI components
+// Updated: 2025-12-19 12:28:12 - style(auth): add triage system
 // Updated: 2025-12-19 12:28:08 - perf(database): add dashboard
 // Updated: 2025-12-19 12:28:05 - feat(validation): fix database schema in validation (fixes #18)
 // Updated: 2025-12-19 12:27:55 - perf(socket): implement patient form
@@ -269,6 +270,7 @@ export const useAuth = () => {
   
   return context;
 };
+
 
 
 
