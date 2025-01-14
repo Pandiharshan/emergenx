@@ -1,4 +1,5 @@
-﻿// Updated: 2025-12-19 12:03:29 - perf(ui): fix authentication in ui
+﻿// Updated: 2025-12-19 12:03:38 - feat: refactor database database schema (fixes #34)
+// Updated: 2025-12-19 12:03:29 - perf(ui): fix authentication in ui
 // Updated: 2025-12-19 12:03:26 - style(ui): optimize patient form
 import React, { Suspense, useContext, useEffect, useState } from 'react';
 import { BrowserRouter as Router, Routes, Route, Navigate } from 'react-router-dom';
@@ -259,4 +260,5 @@ const App = () => {
 };
 
 export default App;
+
 
