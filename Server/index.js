@@ -1,4 +1,5 @@
-﻿// Updated: 2025-12-19 12:03:26 - perf(ui): update error handling in ui
+﻿// Updated: 2025-12-19 12:03:36 - test(api): optimize patient form
+// Updated: 2025-12-19 12:03:26 - perf(ui): update error handling in ui
 import express from 'express';
 import cors from 'cors';
 import dotenv from 'dotenv';
@@ -170,4 +171,5 @@ server.listen(PORT, () => {
   console.log(`ðŸš€ EmergenX Server running on port ${PORT}`);
   console.log(`ðŸ“ž WebSocket server ready for real-time calls`);
 });
+
 

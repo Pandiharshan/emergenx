@@ -1,4 +1,5 @@
-﻿// Updated: 2025-12-19 12:03:29 - docs(ui): add error handling
+﻿// Updated: 2025-12-19 12:03:37 - docs(validation): fix API endpoints in validation
+// Updated: 2025-12-19 12:03:29 - docs(ui): add error handling
 import React, { useState, useEffect } from 'react';
 import { useNavigate } from 'react-router-dom';
 import { useAuth } from '../context/AuthContext';
@@ -229,3 +230,4 @@ const Dashboard = () => {
 };
 
 export default Dashboard;
+
