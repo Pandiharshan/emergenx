@@ -1,4 +1,5 @@
-﻿// Updated: 2025-12-19 12:03:36 - test(api): optimize patient form
+﻿// Updated: 2025-12-19 12:03:39 - perf(api): implement UI components in api
+// Updated: 2025-12-19 12:03:36 - test(api): optimize patient form
 // Updated: 2025-12-19 12:03:26 - perf(ui): update error handling in ui
 import express from 'express';
 import cors from 'cors';
@@ -171,5 +172,6 @@ server.listen(PORT, () => {
   console.log(`ðŸš€ EmergenX Server running on port ${PORT}`);
   console.log(`ðŸ“ž WebSocket server ready for real-time calls`);
 });
+
 
 
