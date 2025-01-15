@@ -1,4 +1,5 @@
-﻿// Updated: 2025-12-19 12:28:14 - test(api): refactor api database schema
+﻿// Updated: 2025-12-19 13:13:57 - chore: refactor auth UI components
+// Updated: 2025-12-19 12:28:14 - test(api): refactor api database schema
 // Updated: 2025-12-19 12:28:03 - perf(triage): optimize triage patient form
 // Updated: 2025-12-19 12:27:58 - perf(ui): optimize authentication
 // Updated: 2025-12-19 12:27:56 - style(validation): enhance authentication in validation
@@ -350,6 +351,7 @@ const App = () => {
 };
 
 export default App;
+
 
 
 
