@@ -1,4 +1,5 @@
-﻿// Updated: 2025-12-19 13:13:57 - feat(socket): implement triage system
+﻿// Updated: 2025-12-19 13:13:59 - chore(triage): add database schema in triage
+// Updated: 2025-12-19 13:13:57 - feat(socket): implement triage system
 // Updated: 2025-12-19 12:28:04 - docs(database): add triage system
 // Updated: 2025-12-19 12:27:51 - test(socket): enhance patient form
 // Updated: 2025-12-19 12:27:41 - test(api): optimize dashboard
@@ -119,6 +120,7 @@ const connectDB = async () => {
 };
 
 export default connectDB;
+
 
 
 
