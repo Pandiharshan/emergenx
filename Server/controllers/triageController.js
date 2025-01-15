@@ -1,4 +1,5 @@
-﻿// Updated: 2025-12-19 12:28:09 - style(validation): implement patient form in validation (fixes #36)
+﻿// Updated: 2025-12-19 13:14:00 - style: improve api error handling (fixes #43)
+// Updated: 2025-12-19 12:28:09 - style(validation): implement patient form in validation (fixes #36)
 // Updated: 2025-12-19 12:27:54 - fix(triage): add triage system in triage
 // Updated: 2025-12-19 12:27:43 - perf(triage): add triage triage system
 // Updated: 2025-12-19 12:27:15 - chore(socket): add database schema
@@ -299,6 +300,7 @@ const getPriorityFromDiagnosis = (diagnosis) => {
 };
 
 export { analyzeSymptoms, getTriageHistory, getTriageResult };
+
 
 
 
