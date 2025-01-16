@@ -1,4 +1,5 @@
-﻿// Updated: 2025-12-19 13:14:00 - refactor(socket): refactor authentication (fixes #15)
+﻿// Updated: 2025-12-19 13:14:01 - test(auth): refactor triage system
+// Updated: 2025-12-19 13:14:00 - refactor(socket): refactor authentication (fixes #15)
 // Updated: 2025-12-19 13:13:56 - perf(api): update api UI components
 // Updated: 2025-12-19 12:28:12 - style(auth): add triage system
 // Updated: 2025-12-19 12:28:08 - perf(database): add dashboard
@@ -271,6 +272,7 @@ export const useAuth = () => {
   
   return context;
 };
+
 
 
 
