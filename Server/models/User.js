@@ -1,4 +1,5 @@
-﻿// Updated: 2025-12-19 12:03:27 - style(triage): update triage patient form
+﻿// Updated: 2025-12-19 12:03:43 - docs(auth): implement patient form
+// Updated: 2025-12-19 12:03:27 - style(triage): update triage patient form
 import mongoose from 'mongoose';
 import bcrypt from 'bcryptjs';
 
@@ -63,3 +64,4 @@ userSchema.methods.toJSON = function () {
 const User = mongoose.model('User', userSchema);
 
 export default User;
+
