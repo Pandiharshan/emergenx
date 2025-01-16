@@ -1,4 +1,5 @@
-﻿// Updated: 2025-12-19 13:14:02 - feat(patient): implement patient triage system
+﻿// Updated: 2025-12-19 13:14:03 - chore(database): refactor database schema in database (fixes #20)
+// Updated: 2025-12-19 13:14:02 - feat(patient): implement patient triage system
 // Updated: 2025-12-19 13:13:58 - feat: fix auth database schema
 // Updated: 2025-12-19 13:13:57 - chore: refactor auth UI components
 // Updated: 2025-12-19 12:28:14 - test(api): refactor api database schema
@@ -353,6 +354,7 @@ const App = () => {
 };
 
 export default App;
+
 
 
 
