@@ -1,4 +1,5 @@
-﻿// Updated: 2025-12-19 12:03:40 - feat(database): fix UI components in database
+﻿// Updated: 2025-12-19 12:03:49 - style(auth): update UI components in auth
+// Updated: 2025-12-19 12:03:40 - feat(database): fix UI components in database
 // Updated: 2025-12-19 12:03:38 - style(api): improve database schema in api (fixes #23)
 // Updated: 2025-12-19 12:03:38 - feat: refactor database database schema (fixes #34)
 // Updated: 2025-12-19 12:03:29 - perf(ui): fix authentication in ui
@@ -262,6 +263,7 @@ const App = () => {
 };
 
 export default App;
+
 
 
 
