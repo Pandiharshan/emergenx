@@ -1,4 +1,5 @@
-﻿// Updated: 2025-12-19 12:03:25 - feat(database): improve API endpoints in database
+﻿// Updated: 2025-12-19 12:03:52 - feat(triage): refactor triage patient form (fixes #32)
+// Updated: 2025-12-19 12:03:25 - feat(database): improve API endpoints in database
 import mongoose from 'mongoose';
 
 const patientSchema = new mongoose.Schema(
@@ -39,3 +40,4 @@ patientSchema.index({ user: 1, date: -1 });
 const Patient = mongoose.model('Patient', patientSchema);
 
 export default Patient;
+
