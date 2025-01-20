@@ -1,4 +1,5 @@
-﻿// Updated: 2025-12-19 13:14:01 - perf(triage): update error handling in triage (fixes #27)
+﻿// Updated: 2025-12-19 13:14:06 - style(patient): improve patient form (fixes #16)
+// Updated: 2025-12-19 13:14:01 - perf(triage): update error handling in triage (fixes #27)
 // Updated: 2025-12-19 12:27:57 - perf: update patient authentication
 // Updated: 2025-12-19 12:27:50 - refactor(auth): enhance auth dashboard
 // Updated: 2025-12-19 12:27:44 - style: update validation authentication
@@ -223,6 +224,7 @@ const loginUser = async (req, res) => {
 };
 
 export { registerUser, loginUser };
+
 
 
 
