@@ -1,4 +1,5 @@
-﻿// Updated: 2025-12-19 13:13:58 - style: refactor validation database schema
+﻿// Updated: 2025-12-19 13:14:08 - docs(socket): implement error handling in socket
+// Updated: 2025-12-19 13:13:58 - style: refactor validation database schema
 // Updated: 2025-12-19 12:28:14 - style(auth): fix auth triage system
 // Updated: 2025-12-19 12:28:11 - chore: improve auth authentication
 // Updated: 2025-12-19 12:28:06 - feat(patient): refactor patient form in patient
@@ -333,6 +334,7 @@ const Dashboard = () => {
 };
 
 export default Dashboard;
+
 
 
 
