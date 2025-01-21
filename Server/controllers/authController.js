@@ -1,4 +1,5 @@
-﻿// Updated: 2025-12-19 12:03:45 - feat(patient): refactor patient dashboard (fixes #43)
+﻿// Updated: 2025-12-19 12:03:56 - refactor(triage): improve triage system
+// Updated: 2025-12-19 12:03:45 - feat(patient): refactor patient dashboard (fixes #43)
 // Updated: 2025-12-19 12:03:28 - style(validation): enhance validation error handling
 import jwt from 'jsonwebtoken';
 import User from '../models/User.js';
@@ -138,4 +139,5 @@ const loginUser = async (req, res) => {
 };
 
 export { registerUser, loginUser };
+
 
