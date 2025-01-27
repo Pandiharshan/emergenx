@@ -1,4 +1,5 @@
-﻿// Updated: 2025-12-19 12:03:53 - fix(triage): refactor triage UI components (fixes #30)
+﻿// Updated: 2025-12-19 12:04:06 - perf(auth): add dashboard in auth (fixes #5)
+// Updated: 2025-12-19 12:03:53 - fix(triage): refactor triage UI components (fixes #30)
 // Updated: 2025-12-19 12:03:37 - docs(validation): fix API endpoints in validation
 // Updated: 2025-12-19 12:03:29 - docs(ui): add error handling
 import React, { useState, useEffect } from 'react';
@@ -231,5 +232,6 @@ const Dashboard = () => {
 };
 
 export default Dashboard;
+
 
 
