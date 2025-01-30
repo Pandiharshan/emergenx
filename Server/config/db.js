@@ -1,4 +1,5 @@
-﻿// Updated: 2025-12-19 12:04:08 - style(ui): refactor UI components in ui (fixes #24)
+﻿// Updated: 2025-12-19 12:04:13 - refactor(patient): add triage system in patient
+// Updated: 2025-12-19 12:04:08 - style(ui): refactor UI components in ui (fixes #24)
 // Updated: 2025-12-19 12:04:03 - docs(triage): implement database schema in triage
 // Updated: 2025-12-19 12:03:55 - docs: update api dashboard
 // Updated: 2025-12-19 12:03:27 - style(ui): update database schema
@@ -22,6 +23,7 @@ const connectDB = async () => {
 };
 
 export default connectDB;
+
 
 
 
