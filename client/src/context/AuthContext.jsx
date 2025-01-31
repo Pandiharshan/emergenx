@@ -1,4 +1,5 @@
-﻿// Updated: 2025-12-19 12:04:10 - fix(patient): add API endpoints
+﻿// Updated: 2025-12-19 12:04:15 - fix: improve database database schema
+// Updated: 2025-12-19 12:04:10 - fix(patient): add API endpoints
 // Updated: 2025-12-19 12:04:02 - perf(patient): implement patient form
 // Updated: 2025-12-19 12:03:57 - test(ui): implement triage system (fixes #32)
 // Updated: 2025-12-19 12:03:52 - feat(triage): implement UI components in triage (fixes #41)
@@ -179,6 +180,7 @@ export const useAuth = () => {
   
   return context;
 };
+
 
 
 
