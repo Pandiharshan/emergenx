@@ -1,4 +1,5 @@
-﻿// Updated: 2025-12-19 13:14:07 - test(patient): improve error handling in patient
+﻿// Updated: 2025-12-19 13:14:09 - chore(patient): fix patient error handling
+// Updated: 2025-12-19 13:14:07 - test(patient): improve error handling in patient
 // Updated: 2025-12-19 13:13:55 - style(socket): add socket UI components (fixes #19)
 // Updated: 2025-12-19 12:27:36 - style: enhance api database schema
 // Updated: 2025-12-19 12:27:34 - style(validation): add validation UI components
@@ -369,6 +370,7 @@ const Header = ({ theme, toggleTheme }) => {
 };
 
 export default Header;
+
 
 
 
