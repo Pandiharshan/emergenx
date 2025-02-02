@@ -1,4 +1,5 @@
-﻿// Updated: 2025-12-19 12:04:06 - style(database): implement triage system in database
+﻿// Updated: 2025-12-19 12:04:17 - feat: refactor ui authentication
+// Updated: 2025-12-19 12:04:06 - style(database): implement triage system in database
 // Updated: 2025-12-19 12:03:30 - test(patient): improve triage system
 import Patient from '../models/Patient.js';
 
@@ -216,4 +217,5 @@ const getPriorityFromDiagnosis = (diagnosis) => {
 };
 
 export { analyzeSymptoms, getTriageHistory, getTriageResult };
+
 
