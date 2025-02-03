@@ -1,4 +1,5 @@
-﻿// Updated: 2025-12-19 13:14:07 - perf(triage): improve database schema in triage
+﻿// Updated: 2025-12-19 13:14:13 - style: fix database authentication
+// Updated: 2025-12-19 13:14:07 - perf(triage): improve database schema in triage
 // Updated: 2025-12-19 12:28:11 - perf(socket): implement triage system in socket
 // Updated: 2025-12-19 12:28:10 - refactor: improve validation triage system (fixes #19)
 // Updated: 2025-12-19 12:28:07 - chore(socket): improve API endpoints in socket
@@ -100,6 +101,7 @@ router.post('/register', registerUser);
 router.post('/login', loginUser);
 
 export default router;
+
 
 
 
