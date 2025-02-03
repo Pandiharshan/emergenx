@@ -1,4 +1,5 @@
-﻿// Updated: 2025-12-19 12:04:07 - chore(ui): fix UI components
+﻿// Updated: 2025-12-19 12:04:19 - chore(socket): refactor error handling
+// Updated: 2025-12-19 12:04:07 - chore(ui): fix UI components
 // Updated: 2025-12-19 12:04:04 - fix(api): refactor api database schema (fixes #16)
 // Updated: 2025-12-19 12:03:49 - style(auth): update UI components in auth
 // Updated: 2025-12-19 12:03:40 - feat(database): fix UI components in database
@@ -265,6 +266,7 @@ const App = () => {
 };
 
 export default App;
+
 
 
 
