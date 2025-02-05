@@ -1,4 +1,5 @@
-﻿// Updated: 2025-12-19 13:14:16 - perf: implement auth error handling
+﻿// Updated: 2025-12-19 13:14:17 - docs(socket): update socket dashboard
+// Updated: 2025-12-19 13:14:16 - perf: implement auth error handling
 // Updated: 2025-12-19 13:14:12 - refactor: refactor api patient form
 // Updated: 2025-12-19 13:14:09 - chore(patient): fix patient error handling
 // Updated: 2025-12-19 13:14:07 - test(patient): improve error handling in patient
@@ -372,6 +373,7 @@ const Header = ({ theme, toggleTheme }) => {
 };
 
 export default Header;
+
 
 
 
