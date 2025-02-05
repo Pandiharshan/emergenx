@@ -1,4 +1,5 @@
-﻿// Updated: 2025-12-19 13:14:16 - test: optimize api API endpoints
+﻿// Updated: 2025-12-19 13:14:18 - docs: refactor auth API endpoints
+// Updated: 2025-12-19 13:14:16 - test: optimize api API endpoints
 // Updated: 2025-12-19 12:28:12 - docs(api): add dashboard
 // Updated: 2025-12-19 12:27:51 - perf(auth): improve patient form in auth
 // Updated: 2025-12-19 12:27:45 - feat: add triage authentication (fixes #38)
@@ -161,6 +162,7 @@ userSchema.methods.toJSON = function () {
 const User = mongoose.model('User', userSchema);
 
 export default User;
+
 
 
 
