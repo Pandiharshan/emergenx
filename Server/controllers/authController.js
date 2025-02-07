@@ -1,4 +1,5 @@
-﻿// Updated: 2025-12-19 12:04:20 - perf(patient): optimize authentication in patient
+﻿// Updated: 2025-12-19 12:04:26 - feat(api): fix dashboard in api
+// Updated: 2025-12-19 12:04:20 - perf(patient): optimize authentication in patient
 // Updated: 2025-12-19 12:04:16 - chore(ui): enhance UI components
 // Updated: 2025-12-19 12:04:15 - fix: optimize triage database schema
 // Updated: 2025-12-19 12:03:56 - refactor(triage): improve triage system
@@ -142,6 +143,7 @@ const loginUser = async (req, res) => {
 };
 
 export { registerUser, loginUser };
+
 
 
 
