@@ -1,4 +1,5 @@
-﻿// Updated: 2025-12-19 12:04:05 - style(ui): implement ui UI components
+﻿// Updated: 2025-12-19 12:04:28 - refactor: add database triage system
+// Updated: 2025-12-19 12:04:05 - style(ui): implement ui UI components
 // Updated: 2025-12-19 12:03:56 - docs: optimize ui triage system
 // Updated: 2025-12-19 12:03:51 - chore(api): update triage system in api (fixes #44)
 // Updated: 2025-12-19 12:03:43 - docs(auth): implement patient form
@@ -67,6 +68,7 @@ userSchema.methods.toJSON = function () {
 const User = mongoose.model('User', userSchema);
 
 export default User;
+
 
 
 
