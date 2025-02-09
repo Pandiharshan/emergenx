@@ -1,4 +1,5 @@
-﻿// Updated: 2025-12-19 12:04:25 - test: improve socket API endpoints
+﻿// Updated: 2025-12-19 12:04:34 - test(patient): enhance patient API endpoints
+// Updated: 2025-12-19 12:04:25 - test: improve socket API endpoints
 // Updated: 2025-12-19 12:04:16 - refactor(database): add authentication in database
 // Updated: 2025-12-19 12:04:13 - refactor(patient): add triage system in patient
 // Updated: 2025-12-19 12:04:08 - style(ui): refactor UI components in ui (fixes #24)
@@ -25,6 +26,7 @@ const connectDB = async () => {
 };
 
 export default connectDB;
+
 
 
 
