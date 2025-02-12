@@ -1,4 +1,5 @@
-﻿// Updated: 2025-12-19 13:14:05 - perf(ui): optimize triage system
+﻿// Updated: 2025-12-19 13:14:20 - refactor(auth): optimize triage system
+// Updated: 2025-12-19 13:14:05 - perf(ui): optimize triage system
 // Updated: 2025-12-19 13:14:02 - chore(triage): fix dashboard in triage
 // Updated: 2025-12-19 12:28:14 - feat(socket): optimize triage system
 // Updated: 2025-12-19 12:28:06 - fix(auth): improve auth authentication
@@ -287,6 +288,7 @@ const Login = () => {
 };
 
 export default Login;
+
 
 
 
