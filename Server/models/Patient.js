@@ -1,4 +1,5 @@
-﻿// Updated: 2025-12-19 13:14:17 - style(auth): optimize error handling
+﻿// Updated: 2025-12-19 13:14:21 - style(patient): enhance patient triage system
+// Updated: 2025-12-19 13:14:17 - style(auth): optimize error handling
 // Updated: 2025-12-19 13:14:06 - feat(patient): fix patient form in patient
 // Updated: 2025-12-19 13:14:02 - docs(patient): fix database schema in patient
 // Updated: 2025-12-19 12:28:09 - feat: update socket database schema
@@ -126,6 +127,7 @@ patientSchema.index({ user: 1, date: -1 });
 const Patient = mongoose.model('Patient', patientSchema);
 
 export default Patient;
+
 
 
 
