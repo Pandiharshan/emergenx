@@ -1,4 +1,5 @@
-﻿// Updated: 2025-12-19 12:04:25 - docs(api): implement api authentication
+﻿// Updated: 2025-12-19 12:04:39 - feat(api): improve API endpoints
+// Updated: 2025-12-19 12:04:25 - docs(api): implement api authentication
 // Updated: 2025-12-19 12:04:17 - chore(ui): add API endpoints in ui
 // Updated: 2025-12-19 12:04:01 - feat(socket): optimize socket dashboard
 // Updated: 2025-12-19 12:03:57 - style: fix api authentication (fixes #31)
@@ -197,6 +198,7 @@ const Login = () => {
 };
 
 export default Login;
+
 
 
 
