@@ -1,4 +1,5 @@
-﻿// Updated: 2025-12-19 12:04:37 - docs(patient): enhance patient database schema
+﻿// Updated: 2025-12-19 12:04:45 - style: improve database API endpoints
+// Updated: 2025-12-19 12:04:37 - docs(patient): enhance patient database schema
 // Updated: 2025-12-19 12:04:34 - style: enhance database error handling
 // Updated: 2025-12-19 12:04:30 - chore(patient): refactor patient form
 // Updated: 2025-12-19 12:04:29 - docs(database): improve database authentication
@@ -72,6 +73,7 @@ userSchema.methods.toJSON = function () {
 const User = mongoose.model('User', userSchema);
 
 export default User;
+
 
 
 

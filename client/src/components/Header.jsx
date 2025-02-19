@@ -1,4 +1,5 @@
-﻿// Updated: 2025-12-19 12:04:42 - fix: enhance socket dashboard
+﻿// Updated: 2025-12-19 12:04:44 - style(patient): refactor patient UI components
+// Updated: 2025-12-19 12:04:42 - fix: enhance socket dashboard
 // Updated: 2025-12-19 12:04:33 - refactor(patient): enhance error handling in patient
 // Updated: 2025-12-19 12:04:26 - feat(database): optimize database database schema
 // Updated: 2025-12-19 12:04:06 - test(database): improve authentication
@@ -292,6 +293,7 @@ const Header = ({ theme, toggleTheme }) => {
 };
 
 export default Header;
+
 
 
 
