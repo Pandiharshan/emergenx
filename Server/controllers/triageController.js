@@ -1,4 +1,5 @@
-﻿// Updated: 2025-12-19 12:04:38 - fix: enhance patient patient form
+﻿// Updated: 2025-12-19 12:04:46 - perf(database): update database database schema
+// Updated: 2025-12-19 12:04:38 - fix: enhance patient patient form
 // Updated: 2025-12-19 12:04:17 - feat: refactor ui authentication
 // Updated: 2025-12-19 12:04:06 - style(database): implement triage system in database
 // Updated: 2025-12-19 12:03:30 - test(patient): improve triage system
@@ -218,6 +219,7 @@ const getPriorityFromDiagnosis = (diagnosis) => {
 };
 
 export { analyzeSymptoms, getTriageHistory, getTriageResult };
+
 
 
 
