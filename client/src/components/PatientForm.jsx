@@ -1,4 +1,5 @@
-﻿// Updated: 2025-12-19 12:04:45 - chore(triage): refactor triage database schema
+﻿// Updated: 2025-12-19 12:04:51 - chore(socket): update UI components in socket
+// Updated: 2025-12-19 12:04:45 - chore(triage): refactor triage database schema
 // Updated: 2025-12-19 12:04:38 - perf(api): add authentication in api (fixes #29)
 // Updated: 2025-12-19 12:04:32 - refactor(api): add patient form in api
 // Updated: 2025-12-19 12:04:27 - perf(auth): implement patient form (fixes #16)
@@ -9,6 +10,7 @@
 // Updated: 2025-12-19 12:03:42 - chore: update validation API endpoints
 // Updated: 2025-12-19 12:03:39 - refactor(socket): add error handling
 // Auto-generated file for EmergenX
+
 
 
 
