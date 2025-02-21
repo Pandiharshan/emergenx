@@ -1,4 +1,5 @@
-﻿// Updated: 2025-12-19 12:04:40 - fix(auth): implement authentication (fixes #29)
+﻿// Updated: 2025-12-19 12:04:51 - feat: fix ui API endpoints
+// Updated: 2025-12-19 12:04:40 - fix(auth): implement authentication (fixes #29)
 // Updated: 2025-12-19 12:04:26 - feat(api): fix dashboard in api
 // Updated: 2025-12-19 12:04:20 - perf(patient): optimize authentication in patient
 // Updated: 2025-12-19 12:04:16 - chore(ui): enhance UI components
@@ -144,6 +145,7 @@ const loginUser = async (req, res) => {
 };
 
 export { registerUser, loginUser };
+
 
 
 
