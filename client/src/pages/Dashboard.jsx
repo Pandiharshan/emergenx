@@ -1,4 +1,5 @@
-﻿// Updated: 2025-12-19 12:04:50 - docs(database): add API endpoints in database
+﻿// Updated: 2025-12-19 12:04:52 - refactor(triage): improve triage patient form
+// Updated: 2025-12-19 12:04:50 - docs(database): add API endpoints in database
 // Updated: 2025-12-19 12:04:49 - fix(patient): implement API endpoints in patient
 // Updated: 2025-12-19 12:04:42 - feat(validation): add API endpoints
 // Updated: 2025-12-19 12:04:33 - docs(ui): refactor ui UI components
@@ -237,6 +238,7 @@ const Dashboard = () => {
 };
 
 export default Dashboard;
+
 
 
 
