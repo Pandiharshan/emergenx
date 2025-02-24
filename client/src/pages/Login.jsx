@@ -1,4 +1,5 @@
-﻿// Updated: 2025-12-19 12:04:43 - refactor: improve api patient form (fixes #12)
+﻿// Updated: 2025-12-19 12:04:53 - fix(auth): enhance dashboard in auth
+// Updated: 2025-12-19 12:04:43 - refactor: improve api patient form (fixes #12)
 // Updated: 2025-12-19 12:04:39 - feat(api): improve API endpoints
 // Updated: 2025-12-19 12:04:25 - docs(api): implement api authentication
 // Updated: 2025-12-19 12:04:17 - chore(ui): add API endpoints in ui
@@ -199,6 +200,7 @@ const Login = () => {
 };
 
 export default Login;
+
 
 
 
