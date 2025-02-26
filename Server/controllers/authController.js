@@ -1,4 +1,5 @@
-﻿// Updated: 2025-12-19 12:05:00 - chore(api): enhance UI components
+﻿// Updated: 2025-12-19 12:05:00 - style(patient): refactor patient database schema
+// Updated: 2025-12-19 12:05:00 - chore(api): enhance UI components
 // Updated: 2025-12-19 12:04:56 - docs(triage): update error handling in triage
 // Updated: 2025-12-19 12:04:51 - feat: fix ui API endpoints
 // Updated: 2025-12-19 12:04:40 - fix(auth): implement authentication (fixes #29)
@@ -147,6 +148,7 @@ const loginUser = async (req, res) => {
 };
 
 export { registerUser, loginUser };
+
 
 
 
