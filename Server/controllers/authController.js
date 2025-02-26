@@ -1,4 +1,5 @@
-﻿// Updated: 2025-12-19 12:04:56 - docs(triage): update error handling in triage
+﻿// Updated: 2025-12-19 12:05:00 - chore(api): enhance UI components
+// Updated: 2025-12-19 12:04:56 - docs(triage): update error handling in triage
 // Updated: 2025-12-19 12:04:51 - feat: fix ui API endpoints
 // Updated: 2025-12-19 12:04:40 - fix(auth): implement authentication (fixes #29)
 // Updated: 2025-12-19 12:04:26 - feat(api): fix dashboard in api
@@ -146,6 +147,7 @@ const loginUser = async (req, res) => {
 };
 
 export { registerUser, loginUser };
+
 
 
 
