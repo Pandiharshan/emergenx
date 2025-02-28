@@ -1,4 +1,5 @@
-﻿// Updated: 2025-12-19 12:04:49 - refactor: update triage patient form
+﻿// Updated: 2025-12-19 12:05:04 - test(auth): add API endpoints in auth
+// Updated: 2025-12-19 12:04:49 - refactor: update triage patient form
 // Updated: 2025-12-19 12:04:44 - refactor(auth): optimize UI components
 // Updated: 2025-12-19 12:04:40 - feat(api): enhance error handling in api (fixes #43)
 // Updated: 2025-12-19 12:04:34 - test(patient): enhance patient API endpoints
@@ -29,6 +30,7 @@ const connectDB = async () => {
 };
 
 export default connectDB;
+
 
 
 
