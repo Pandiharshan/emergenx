@@ -1,4 +1,5 @@
-﻿// Updated: 2025-12-19 12:04:54 - docs: implement triage API endpoints
+﻿// Updated: 2025-12-19 12:05:04 - refactor(triage): refactor triage authentication
+// Updated: 2025-12-19 12:04:54 - docs: implement triage API endpoints
 // Updated: 2025-12-19 12:04:53 - fix(auth): enhance dashboard in auth
 // Updated: 2025-12-19 12:04:43 - refactor: improve api patient form (fixes #12)
 // Updated: 2025-12-19 12:04:39 - feat(api): improve API endpoints
@@ -201,6 +202,7 @@ const Login = () => {
 };
 
 export default Login;
+
 
 
 
