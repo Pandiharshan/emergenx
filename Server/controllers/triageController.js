@@ -1,4 +1,5 @@
-﻿// Updated: 2025-12-19 12:04:59 - feat(patient): add patient API endpoints
+﻿// Updated: 2025-12-19 12:05:08 - fix: update api database schema (fixes #42)
+// Updated: 2025-12-19 12:04:59 - feat(patient): add patient API endpoints
 // Updated: 2025-12-19 12:04:50 - test(patient): fix patient triage system
 // Updated: 2025-12-19 12:04:46 - perf(database): update database database schema
 // Updated: 2025-12-19 12:04:38 - fix: enhance patient patient form
@@ -221,6 +222,7 @@ const getPriorityFromDiagnosis = (diagnosis) => {
 };
 
 export { analyzeSymptoms, getTriageHistory, getTriageResult };
+
 
 
 
