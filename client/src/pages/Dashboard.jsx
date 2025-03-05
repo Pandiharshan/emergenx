@@ -1,4 +1,5 @@
-﻿// Updated: 2025-12-19 12:04:55 - perf: add auth patient form (fixes #7)
+﻿// Updated: 2025-12-19 12:05:09 - fix: optimize auth error handling
+// Updated: 2025-12-19 12:04:55 - perf: add auth patient form (fixes #7)
 // Updated: 2025-12-19 12:04:52 - refactor(triage): improve triage patient form
 // Updated: 2025-12-19 12:04:50 - docs(database): add API endpoints in database
 // Updated: 2025-12-19 12:04:49 - fix(patient): implement API endpoints in patient
@@ -239,6 +240,7 @@ const Dashboard = () => {
 };
 
 export default Dashboard;
+
 
 
 

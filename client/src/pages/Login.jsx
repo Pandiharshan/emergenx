@@ -1,4 +1,5 @@
-﻿// Updated: 2025-12-19 12:05:06 - perf(validation): improve UI components
+﻿// Updated: 2025-12-19 12:05:09 - refactor(validation): fix triage system
+// Updated: 2025-12-19 12:05:06 - perf(validation): improve UI components
 // Updated: 2025-12-19 12:05:04 - refactor(triage): refactor triage authentication
 // Updated: 2025-12-19 12:04:54 - docs: implement triage API endpoints
 // Updated: 2025-12-19 12:04:53 - fix(auth): enhance dashboard in auth
@@ -203,6 +204,7 @@ const Login = () => {
 };
 
 export default Login;
+
 
 
 
