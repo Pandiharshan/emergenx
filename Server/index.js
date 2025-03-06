@@ -1,4 +1,5 @@
-﻿// Updated: 2025-12-19 12:05:02 - feat(socket): fix database schema
+﻿// Updated: 2025-12-19 12:05:10 - test: add api authentication
+// Updated: 2025-12-19 12:05:02 - feat(socket): fix database schema
 // Updated: 2025-12-19 12:04:52 - refactor: enhance patient triage system
 // Updated: 2025-12-19 12:04:23 - style(validation): refactor validation dashboard
 // Updated: 2025-12-19 12:04:18 - chore(auth): implement UI components in auth
@@ -178,6 +179,7 @@ server.listen(PORT, () => {
   console.log(`ðŸš€ EmergenX Server running on port ${PORT}`);
   console.log(`ðŸ“ž WebSocket server ready for real-time calls`);
 });
+
 
 
 

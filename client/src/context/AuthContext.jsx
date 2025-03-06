@@ -1,4 +1,5 @@
-﻿// Updated: 2025-12-19 12:04:59 - test(patient): improve triage system
+﻿// Updated: 2025-12-19 12:05:10 - fix: improve database patient form
+// Updated: 2025-12-19 12:04:59 - test(patient): improve triage system
 // Updated: 2025-12-19 12:04:24 - docs(auth): enhance auth authentication
 // Updated: 2025-12-19 12:04:15 - fix: improve database database schema
 // Updated: 2025-12-19 12:04:10 - fix(patient): add API endpoints
@@ -182,6 +183,7 @@ export const useAuth = () => {
   
   return context;
 };
+
 
 
 
