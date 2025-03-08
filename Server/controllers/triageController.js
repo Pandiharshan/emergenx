@@ -1,4 +1,5 @@
-﻿// Updated: 2025-12-19 13:14:18 - fix(triage): add triage database schema
+﻿// Updated: 2025-12-19 13:14:27 - test(ui): add triage system in ui
+// Updated: 2025-12-19 13:14:18 - fix(triage): add triage database schema
 // Updated: 2025-12-19 13:14:15 - refactor(socket): enhance socket API endpoints
 // Updated: 2025-12-19 13:14:00 - style: improve api error handling (fixes #43)
 // Updated: 2025-12-19 12:28:09 - style(validation): implement patient form in validation (fixes #36)
@@ -302,6 +303,7 @@ const getPriorityFromDiagnosis = (diagnosis) => {
 };
 
 export { analyzeSymptoms, getTriageHistory, getTriageResult };
+
 
 
 
