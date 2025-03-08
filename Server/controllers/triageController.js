@@ -1,4 +1,5 @@
-﻿// Updated: 2025-12-19 13:14:27 - test(ui): add triage system in ui
+﻿// Updated: 2025-12-19 13:14:28 - refactor: add triage triage system
+// Updated: 2025-12-19 13:14:27 - test(ui): add triage system in ui
 // Updated: 2025-12-19 13:14:18 - fix(triage): add triage database schema
 // Updated: 2025-12-19 13:14:15 - refactor(socket): enhance socket API endpoints
 // Updated: 2025-12-19 13:14:00 - style: improve api error handling (fixes #43)
@@ -303,6 +304,7 @@ const getPriorityFromDiagnosis = (diagnosis) => {
 };
 
 export { analyzeSymptoms, getTriageHistory, getTriageResult };
+
 
 
 
