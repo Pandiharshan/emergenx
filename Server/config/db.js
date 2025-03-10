@@ -1,4 +1,5 @@
-﻿// Updated: 2025-12-19 12:05:07 - style(database): add dashboard
+﻿// Updated: 2025-12-19 12:05:13 - docs(database): add API endpoints
+// Updated: 2025-12-19 12:05:07 - style(database): add dashboard
 // Updated: 2025-12-19 12:05:04 - test(auth): add API endpoints in auth
 // Updated: 2025-12-19 12:04:49 - refactor: update triage patient form
 // Updated: 2025-12-19 12:04:44 - refactor(auth): optimize UI components
@@ -31,6 +32,7 @@ const connectDB = async () => {
 };
 
 export default connectDB;
+
 
 
 
