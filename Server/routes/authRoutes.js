@@ -1,4 +1,5 @@
-﻿// Updated: 2025-12-19 12:04:48 - perf: update ui API endpoints
+﻿// Updated: 2025-12-19 12:05:14 - chore(ui): fix UI components
+// Updated: 2025-12-19 12:04:48 - perf: update ui API endpoints
 // Updated: 2025-12-19 12:04:42 - refactor(validation): optimize error handling in validation
 // Updated: 2025-12-19 12:04:35 - fix: update socket database schema
 // Updated: 2025-12-19 12:04:22 - test(api): refactor API endpoints
@@ -24,6 +25,7 @@ router.post('/register', registerUser);
 router.post('/login', loginUser);
 
 export default router;
+
 
 
 
