@@ -1,4 +1,5 @@
-﻿// Updated: 2025-12-19 13:14:10 - fix(auth): implement triage system in auth
+﻿// Updated: 2025-12-19 13:14:29 - style(database): update API endpoints in database
+// Updated: 2025-12-19 13:14:10 - fix(auth): implement triage system in auth
 // Updated: 2025-12-19 12:28:13 - style(ui): fix error handling in ui (fixes #4)
 // Updated: 2025-12-19 12:27:59 - perf(database): enhance triage system in database
 // Updated: 2025-12-19 12:27:49 - chore(patient): add triage system
@@ -100,6 +101,7 @@
 // Updated: 2025-12-19 12:03:34 - style: enhance patient triage system
 // Updated: 2025-12-19 12:03:34 - style(auth): add UI components
 // Auto-generated file for EmergenX
+
 
 
 
