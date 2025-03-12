@@ -1,4 +1,5 @@
-﻿// Updated: 2025-12-19 12:04:57 - fix(database): fix patient form in database
+﻿// Updated: 2025-12-19 12:05:18 - style(ui): fix triage system (fixes #36)
+// Updated: 2025-12-19 12:04:57 - fix(database): fix patient form in database
 // Updated: 2025-12-19 12:04:46 - docs(auth): refactor triage system in auth (fixes #15)
 // Updated: 2025-12-19 12:04:37 - chore: fix api error handling
 // Updated: 2025-12-19 12:04:19 - refactor(api): update API endpoints
@@ -45,6 +46,7 @@ patientSchema.index({ user: 1, date: -1 });
 const Patient = mongoose.model('Patient', patientSchema);
 
 export default Patient;
+
 
 
 
