@@ -1,4 +1,5 @@
-﻿// Updated: 2025-12-19 12:04:57 - style(api): optimize dashboard in api
+﻿// Updated: 2025-12-19 12:05:19 - docs(api): enhance UI components in api
+// Updated: 2025-12-19 12:04:57 - style(api): optimize dashboard in api
 // Updated: 2025-12-19 12:04:50 - docs: refactor triage database schema
 // Updated: 2025-12-19 12:04:44 - style(patient): refactor patient UI components
 // Updated: 2025-12-19 12:04:42 - fix: enhance socket dashboard
@@ -295,6 +296,7 @@ const Header = ({ theme, toggleTheme }) => {
 };
 
 export default Header;
+
 
 
 
