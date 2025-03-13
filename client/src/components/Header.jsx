@@ -1,4 +1,5 @@
-﻿// Updated: 2025-12-19 13:14:17 - docs(socket): update socket dashboard
+﻿// Updated: 2025-12-19 13:14:32 - chore: fix validation API endpoints
+// Updated: 2025-12-19 13:14:17 - docs(socket): update socket dashboard
 // Updated: 2025-12-19 13:14:16 - perf: implement auth error handling
 // Updated: 2025-12-19 13:14:12 - refactor: refactor api patient form
 // Updated: 2025-12-19 13:14:09 - chore(patient): fix patient error handling
@@ -373,6 +374,7 @@ const Header = ({ theme, toggleTheme }) => {
 };
 
 export default Header;
+
 
 
 
