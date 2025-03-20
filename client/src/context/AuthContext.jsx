@@ -1,4 +1,5 @@
-﻿// Updated: 2025-12-19 12:05:32 - style(ui): fix ui dashboard
+﻿// Updated: 2025-12-19 12:05:34 - style(database): update database database schema
+// Updated: 2025-12-19 12:05:32 - style(ui): fix ui dashboard
 // Updated: 2025-12-19 12:05:24 - chore(database): refactor database schema in database
 // Updated: 2025-12-19 12:05:15 - docs: fix validation dashboard
 // Updated: 2025-12-19 12:05:10 - fix: improve database patient form
@@ -186,6 +187,7 @@ export const useAuth = () => {
   
   return context;
 };
+
 
 
 
