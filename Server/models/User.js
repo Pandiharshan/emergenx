@@ -1,4 +1,5 @@
-﻿// Updated: 2025-12-19 12:05:29 - perf(auth): update dashboard (fixes #8)
+﻿// Updated: 2025-12-19 12:05:35 - feat(patient): add UI components
+// Updated: 2025-12-19 12:05:29 - perf(auth): update dashboard (fixes #8)
 // Updated: 2025-12-19 12:05:17 - feat(socket): optimize database schema
 // Updated: 2025-12-19 12:04:45 - style: improve database API endpoints
 // Updated: 2025-12-19 12:04:37 - docs(patient): enhance patient database schema
@@ -75,6 +76,7 @@ userSchema.methods.toJSON = function () {
 const User = mongoose.model('User', userSchema);
 
 export default User;
+
 
 
 
