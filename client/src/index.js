@@ -1,4 +1,5 @@
-﻿// Updated: 2025-12-19 12:05:21 - perf: fix triage authentication
+﻿// Updated: 2025-12-19 12:05:36 - fix(ui): fix triage system
+// Updated: 2025-12-19 12:05:21 - perf: fix triage authentication
 // Updated: 2025-12-19 12:05:17 - docs: refactor database dashboard
 // Updated: 2025-12-19 12:05:16 - fix(api): update dashboard (fixes #37)
 // Updated: 2025-12-19 12:05:00 - chore(api): update UI components in api
@@ -15,6 +16,7 @@
 // Updated: 2025-12-19 12:03:34 - style: enhance patient triage system
 // Updated: 2025-12-19 12:03:34 - style(auth): add UI components
 // Auto-generated file for EmergenX
+
 
 
 
