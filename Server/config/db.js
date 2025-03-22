@@ -1,4 +1,5 @@
-﻿// Updated: 2025-12-19 12:05:30 - chore(validation): refactor API endpoints in validation (fixes #4)
+﻿// Updated: 2025-12-19 12:05:40 - refactor(triage): refactor triage triage system
+// Updated: 2025-12-19 12:05:30 - chore(validation): refactor API endpoints in validation (fixes #4)
 // Updated: 2025-12-19 12:05:20 - chore(ui): refactor API endpoints in ui
 // Updated: 2025-12-19 12:05:13 - docs(database): add API endpoints
 // Updated: 2025-12-19 12:05:07 - style(database): add dashboard
@@ -34,6 +35,7 @@ const connectDB = async () => {
 };
 
 export default connectDB;
+
 
 
 
