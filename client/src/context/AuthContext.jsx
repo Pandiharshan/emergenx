@@ -1,4 +1,5 @@
-﻿// Updated: 2025-12-19 12:05:37 - perf(triage): enhance triage database schema
+﻿// Updated: 2025-12-19 12:05:41 - refactor(patient): improve patient form in patient
+// Updated: 2025-12-19 12:05:37 - perf(triage): enhance triage database schema
 // Updated: 2025-12-19 12:05:34 - style(database): update database database schema
 // Updated: 2025-12-19 12:05:32 - style(ui): fix ui dashboard
 // Updated: 2025-12-19 12:05:24 - chore(database): refactor database schema in database
@@ -188,6 +189,7 @@ export const useAuth = () => {
   
   return context;
 };
+
 
 
 

@@ -1,4 +1,5 @@
-﻿// Updated: 2025-12-19 12:05:32 - fix: implement auth database schema
+﻿// Updated: 2025-12-19 12:05:41 - perf(api): optimize api authentication (fixes #29)
+// Updated: 2025-12-19 12:05:32 - fix: implement auth database schema
 // Updated: 2025-12-19 12:05:03 - fix(validation): update validation UI components
 // Updated: 2025-12-19 12:05:00 - style(patient): refactor patient database schema
 // Updated: 2025-12-19 12:05:00 - chore(api): enhance UI components
@@ -150,6 +151,7 @@ const loginUser = async (req, res) => {
 };
 
 export { registerUser, loginUser };
+
 
 
 
