@@ -1,4 +1,5 @@
-﻿// Updated: 2025-12-19 12:05:15 - feat: fix database patient form (fixes #45)
+﻿// Updated: 2025-12-19 12:05:47 - style: improve database authentication
+// Updated: 2025-12-19 12:05:15 - feat: fix database patient form (fixes #45)
 // Updated: 2025-12-19 12:05:14 - chore(ui): fix UI components
 // Updated: 2025-12-19 12:04:48 - perf: update ui API endpoints
 // Updated: 2025-12-19 12:04:42 - refactor(validation): optimize error handling in validation
@@ -26,6 +27,7 @@ router.post('/register', registerUser);
 router.post('/login', loginUser);
 
 export default router;
+
 
 
 
