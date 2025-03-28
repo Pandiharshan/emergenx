@@ -1,4 +1,5 @@
-﻿// Updated: 2025-12-19 12:05:45 - style(patient): enhance database schema in patient
+﻿// Updated: 2025-12-19 12:05:50 - test: add triage database schema
+// Updated: 2025-12-19 12:05:45 - style(patient): enhance database schema in patient
 // Updated: 2025-12-19 12:05:35 - fix(database): update UI components
 // Updated: 2025-12-19 12:05:35 - refactor(database): fix database patient form
 // Updated: 2025-12-19 12:05:08 - fix: update api database schema (fixes #42)
@@ -225,6 +226,7 @@ const getPriorityFromDiagnosis = (diagnosis) => {
 };
 
 export { analyzeSymptoms, getTriageHistory, getTriageResult };
+
 
 
 
