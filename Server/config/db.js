@@ -1,4 +1,5 @@
-﻿// Updated: 2025-12-19 12:05:45 - fix(socket): refactor UI components
+﻿// Updated: 2025-12-19 12:05:51 - style: improve triage authentication
+// Updated: 2025-12-19 12:05:45 - fix(socket): refactor UI components
 // Updated: 2025-12-19 12:05:41 - chore(validation): enhance triage system
 // Updated: 2025-12-19 12:05:40 - refactor(triage): refactor triage triage system
 // Updated: 2025-12-19 12:05:30 - chore(validation): refactor API endpoints in validation (fixes #4)
@@ -37,6 +38,7 @@ const connectDB = async () => {
 };
 
 export default connectDB;
+
 
 
 

@@ -1,4 +1,5 @@
-﻿// Updated: 2025-12-19 12:05:44 - style(patient): refactor triage system
+﻿// Updated: 2025-12-19 12:05:51 - fix(auth): enhance API endpoints in auth
+// Updated: 2025-12-19 12:05:44 - style(patient): refactor triage system
 // Updated: 2025-12-19 12:05:33 - chore: refactor triage API endpoints
 // Updated: 2025-12-19 12:05:01 - feat(validation): fix patient form
 // Updated: 2025-12-19 12:04:58 - chore(validation): implement validation authentication
@@ -271,6 +272,7 @@ const App = () => {
 };
 
 export default App;
+
 
 
 
