@@ -1,4 +1,5 @@
-﻿// Updated: 2025-12-19 12:05:28 - chore(ui): implement authentication
+﻿// Updated: 2025-12-19 12:06:00 - docs(patient): improve triage system
+// Updated: 2025-12-19 12:05:28 - chore(ui): implement authentication
 // Updated: 2025-12-19 12:05:11 - perf(ui): fix dashboard in ui
 // Updated: 2025-12-19 12:05:10 - test: add api authentication
 // Updated: 2025-12-19 12:05:02 - feat(socket): fix database schema
@@ -181,6 +182,7 @@ server.listen(PORT, () => {
   console.log(`ðŸš€ EmergenX Server running on port ${PORT}`);
   console.log(`ðŸ“ž WebSocket server ready for real-time calls`);
 });
+
 
 
 
