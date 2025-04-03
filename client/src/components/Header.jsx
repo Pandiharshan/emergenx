@@ -1,4 +1,5 @@
-﻿// Updated: 2025-12-19 12:05:33 - feat: update api database schema
+﻿// Updated: 2025-12-19 12:06:00 - test(ui): refactor database schema in ui
+// Updated: 2025-12-19 12:05:33 - feat: update api database schema
 // Updated: 2025-12-19 12:05:30 - test(api): refactor authentication in api
 // Updated: 2025-12-19 12:05:23 - test(socket): add error handling (fixes #23)
 // Updated: 2025-12-19 12:05:20 - docs(database): refactor database schema (fixes #33)
@@ -300,6 +301,7 @@ const Header = ({ theme, toggleTheme }) => {
 };
 
 export default Header;
+
 
 
 
