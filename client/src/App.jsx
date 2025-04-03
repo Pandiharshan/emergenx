@@ -1,4 +1,5 @@
-﻿// Updated: 2025-12-19 13:14:12 - feat(validation): update error handling
+﻿// Updated: 2025-12-19 13:14:37 - fix(api): update patient form
+// Updated: 2025-12-19 13:14:12 - feat(validation): update error handling
 // Updated: 2025-12-19 13:14:03 - chore(database): refactor database schema in database (fixes #20)
 // Updated: 2025-12-19 13:14:02 - feat(patient): implement patient triage system
 // Updated: 2025-12-19 13:13:58 - feat: fix auth database schema
@@ -355,6 +356,7 @@ const App = () => {
 };
 
 export default App;
+
 
 
 
