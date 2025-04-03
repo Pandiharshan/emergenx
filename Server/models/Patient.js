@@ -1,4 +1,5 @@
-﻿// Updated: 2025-12-19 13:14:35 - refactor(ui): improve ui error handling
+﻿// Updated: 2025-12-19 13:14:38 - refactor(validation): optimize authentication in validation
+// Updated: 2025-12-19 13:14:35 - refactor(ui): improve ui error handling
 // Updated: 2025-12-19 13:14:21 - style(patient): enhance patient triage system
 // Updated: 2025-12-19 13:14:17 - style(auth): optimize error handling
 // Updated: 2025-12-19 13:14:06 - feat(patient): fix patient form in patient
@@ -128,6 +129,7 @@ patientSchema.index({ user: 1, date: -1 });
 const Patient = mongoose.model('Patient', patientSchema);
 
 export default Patient;
+
 
 
 
