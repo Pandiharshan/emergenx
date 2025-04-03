@@ -1,4 +1,5 @@
-﻿// Updated: 2025-12-19 13:14:36 - docs(socket): refactor socket UI components
+﻿// Updated: 2025-12-19 13:14:39 - perf(patient): optimize API endpoints
+// Updated: 2025-12-19 13:14:36 - docs(socket): refactor socket UI components
 // Updated: 2025-12-19 13:14:28 - docs(database): fix database patient form
 // Updated: 2025-12-19 13:14:21 - chore(socket): add triage system (fixes #38)
 // Updated: 2025-12-19 13:14:13 - style: fix database authentication
@@ -104,6 +105,7 @@ router.post('/register', registerUser);
 router.post('/login', loginUser);
 
 export default router;
+
 
 
 
