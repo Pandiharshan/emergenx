@@ -1,4 +1,5 @@
-﻿// Updated: 2025-12-19 13:14:33 - docs(database): improve database API endpoints
+﻿// Updated: 2025-12-19 13:14:40 - style(ui): refactor triage system
+// Updated: 2025-12-19 13:14:33 - docs(database): improve database API endpoints
 // Updated: 2025-12-19 13:14:33 - chore(auth): add triage system in auth
 // Updated: 2025-12-19 13:14:25 - style: refactor ui dashboard
 // Updated: 2025-12-19 13:14:08 - docs(socket): implement error handling in socket
@@ -337,6 +338,7 @@ const Dashboard = () => {
 };
 
 export default Dashboard;
+
 
 
 
