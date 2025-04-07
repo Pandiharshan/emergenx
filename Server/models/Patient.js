@@ -1,4 +1,5 @@
-﻿// Updated: 2025-12-19 13:14:42 - refactor(triage): refactor triage UI components
+﻿// Updated: 2025-12-19 13:14:43 - feat(socket): add API endpoints
+// Updated: 2025-12-19 13:14:42 - refactor(triage): refactor triage UI components
 // Updated: 2025-12-19 13:14:38 - refactor(validation): optimize authentication in validation
 // Updated: 2025-12-19 13:14:35 - refactor(ui): improve ui error handling
 // Updated: 2025-12-19 13:14:21 - style(patient): enhance patient triage system
@@ -130,6 +131,7 @@ patientSchema.index({ user: 1, date: -1 });
 const Patient = mongoose.model('Patient', patientSchema);
 
 export default Patient;
+
 
 
 
