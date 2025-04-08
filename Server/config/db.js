@@ -1,4 +1,5 @@
-﻿// Updated: 2025-12-19 12:06:07 - refactor(database): improve database patient form
+﻿// Updated: 2025-12-19 12:06:09 - style(triage): optimize patient form
+// Updated: 2025-12-19 12:06:07 - refactor(database): improve database patient form
 // Updated: 2025-12-19 12:06:05 - feat: fix validation authentication
 // Updated: 2025-12-19 12:06:02 - style: enhance api API endpoints
 // Updated: 2025-12-19 12:05:51 - style: improve triage authentication
@@ -41,6 +42,7 @@ const connectDB = async () => {
 };
 
 export default connectDB;
+
 
 
 
