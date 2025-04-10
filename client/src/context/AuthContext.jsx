@@ -1,4 +1,5 @@
-﻿// Updated: 2025-12-19 12:05:46 - test: fix validation patient form
+﻿// Updated: 2025-12-19 12:06:11 - style(triage): implement triage API endpoints
+// Updated: 2025-12-19 12:05:46 - test: fix validation patient form
 // Updated: 2025-12-19 12:05:41 - refactor(patient): improve patient form in patient
 // Updated: 2025-12-19 12:05:37 - perf(triage): enhance triage database schema
 // Updated: 2025-12-19 12:05:34 - style(database): update database database schema
@@ -190,6 +191,7 @@ export const useAuth = () => {
   
   return context;
 };
+
 
 
 
