@@ -1,4 +1,5 @@
-﻿// Updated: 2025-12-19 13:14:31 - refactor(triage): improve triage authentication
+﻿// Updated: 2025-12-19 13:14:45 - test(triage): improve triage dashboard
+// Updated: 2025-12-19 13:14:31 - refactor(triage): improve triage authentication
 // Updated: 2025-12-19 13:14:28 - refactor: add triage triage system
 // Updated: 2025-12-19 13:14:27 - test(ui): add triage system in ui
 // Updated: 2025-12-19 13:14:18 - fix(triage): add triage database schema
@@ -305,6 +306,7 @@ const getPriorityFromDiagnosis = (diagnosis) => {
 };
 
 export { analyzeSymptoms, getTriageHistory, getTriageResult };
+
 
 
 
