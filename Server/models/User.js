@@ -1,4 +1,5 @@
-﻿// Updated: 2025-12-19 12:06:12 - docs(api): update UI components in api
+﻿// Updated: 2025-12-19 12:06:13 - docs(socket): enhance triage system in socket
+// Updated: 2025-12-19 12:06:12 - docs(api): update UI components in api
 // Updated: 2025-12-19 12:05:47 - feat: update auth triage system (fixes #4)
 // Updated: 2025-12-19 12:05:38 - docs(ui): implement ui dashboard
 // Updated: 2025-12-19 12:05:35 - feat(patient): add UI components
@@ -79,6 +80,7 @@ userSchema.methods.toJSON = function () {
 const User = mongoose.model('User', userSchema);
 
 export default User;
+
 
 
 

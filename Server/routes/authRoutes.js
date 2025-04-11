@@ -1,4 +1,5 @@
-﻿// Updated: 2025-12-19 12:06:03 - feat(patient): improve triage system in patient
+﻿// Updated: 2025-12-19 12:06:13 - docs: fix validation database schema
+// Updated: 2025-12-19 12:06:03 - feat(patient): improve triage system in patient
 // Updated: 2025-12-19 12:05:48 - perf(triage): optimize triage authentication (fixes #23)
 // Updated: 2025-12-19 12:05:47 - style: improve database authentication
 // Updated: 2025-12-19 12:05:15 - feat: fix database patient form (fixes #45)
@@ -29,6 +30,7 @@ router.post('/register', registerUser);
 router.post('/login', loginUser);
 
 export default router;
+
 
 
 
