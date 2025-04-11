@@ -1,4 +1,5 @@
-﻿// Updated: 2025-12-19 13:14:48 - perf: add database database schema (fixes #25)
+﻿// Updated: 2025-12-19 13:14:49 - test: fix validation API endpoints
+// Updated: 2025-12-19 13:14:48 - perf: add database database schema (fixes #25)
 // Updated: 2025-12-19 13:14:43 - feat(socket): add API endpoints
 // Updated: 2025-12-19 13:14:42 - refactor(triage): refactor triage UI components
 // Updated: 2025-12-19 13:14:38 - refactor(validation): optimize authentication in validation
@@ -132,6 +133,7 @@ patientSchema.index({ user: 1, date: -1 });
 const Patient = mongoose.model('Patient', patientSchema);
 
 export default Patient;
+
 
 
 
