@@ -1,4 +1,5 @@
-﻿// Updated: 2025-12-19 12:05:59 - chore(validation): update database schema
+﻿// Updated: 2025-12-19 12:06:18 - chore(auth): update auth triage system
+// Updated: 2025-12-19 12:05:59 - chore(validation): update database schema
 // Updated: 2025-12-19 12:05:57 - docs(validation): implement triage system in validation
 // Updated: 2025-12-19 12:05:55 - test(validation): improve triage system in validation
 // Updated: 2025-12-19 12:05:41 - perf(api): optimize api authentication (fixes #29)
@@ -154,6 +155,7 @@ const loginUser = async (req, res) => {
 };
 
 export { registerUser, loginUser };
+
 
 
 
