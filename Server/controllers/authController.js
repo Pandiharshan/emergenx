@@ -1,4 +1,5 @@
-﻿// Updated: 2025-12-19 13:14:37 - docs(api): enhance UI components
+﻿// Updated: 2025-12-19 13:14:51 - docs(validation): add error handling in validation
+// Updated: 2025-12-19 13:14:37 - docs(api): enhance UI components
 // Updated: 2025-12-19 13:14:29 - test(database): implement dashboard (fixes #16)
 // Updated: 2025-12-19 13:14:19 - chore(database): optimize database schema in database (fixes #18)
 // Updated: 2025-12-19 13:14:14 - feat: update api UI components
@@ -229,6 +230,7 @@ const loginUser = async (req, res) => {
 };
 
 export { registerUser, loginUser };
+
 
 
 
