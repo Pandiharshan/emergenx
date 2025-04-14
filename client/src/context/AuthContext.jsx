@@ -1,4 +1,5 @@
-﻿// Updated: 2025-12-19 13:14:30 - fix: add triage API endpoints
+﻿// Updated: 2025-12-19 13:14:50 - refactor(validation): fix dashboard in validation
+// Updated: 2025-12-19 13:14:30 - fix: add triage API endpoints
 // Updated: 2025-12-19 13:14:15 - chore(auth): enhance API endpoints
 // Updated: 2025-12-19 13:14:01 - test(auth): refactor triage system
 // Updated: 2025-12-19 13:14:00 - refactor(socket): refactor authentication (fixes #15)
@@ -274,6 +275,7 @@ export const useAuth = () => {
   
   return context;
 };
+
 
 
 
