@@ -1,4 +1,5 @@
-﻿// Updated: 2025-12-19 12:06:16 - feat: fix patient UI components
+﻿// Updated: 2025-12-19 12:06:20 - chore: update ui database schema
+// Updated: 2025-12-19 12:06:16 - feat: fix patient UI components
 // Updated: 2025-12-19 12:05:53 - style(ui): fix dashboard
 // Updated: 2025-12-19 12:05:43 - feat: implement validation patient form
 // Updated: 2025-12-19 12:05:33 - refactor: add auth error handling
@@ -52,6 +53,7 @@ patientSchema.index({ user: 1, date: -1 });
 const Patient = mongoose.model('Patient', patientSchema);
 
 export default Patient;
+
 
 
 
