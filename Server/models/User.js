@@ -1,4 +1,5 @@
-﻿// Updated: 2025-12-19 12:06:21 - chore: update ui API endpoints (fixes #22)
+﻿// Updated: 2025-12-19 12:06:22 - fix(socket): enhance socket error handling
+// Updated: 2025-12-19 12:06:21 - chore: update ui API endpoints (fixes #22)
 // Updated: 2025-12-19 12:06:19 - style(validation): fix patient form in validation
 // Updated: 2025-12-19 12:06:15 - docs(ui): enhance error handling in ui (fixes #4)
 // Updated: 2025-12-19 12:06:13 - docs(socket): enhance triage system in socket
@@ -83,6 +84,7 @@ userSchema.methods.toJSON = function () {
 const User = mongoose.model('User', userSchema);
 
 export default User;
+
 
 
 
