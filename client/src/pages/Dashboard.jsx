@@ -1,4 +1,5 @@
-﻿// Updated: 2025-12-19 13:14:46 - docs(patient): enhance API endpoints in patient
+﻿// Updated: 2025-12-19 13:14:52 - perf: fix ui dashboard
+// Updated: 2025-12-19 13:14:46 - docs(patient): enhance API endpoints in patient
 // Updated: 2025-12-19 13:14:40 - chore(auth): refactor auth patient form
 // Updated: 2025-12-19 13:14:40 - style(ui): refactor triage system
 // Updated: 2025-12-19 13:14:33 - docs(database): improve database API endpoints
@@ -340,6 +341,7 @@ const Dashboard = () => {
 };
 
 export default Dashboard;
+
 
 
 
