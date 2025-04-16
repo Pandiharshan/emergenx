@@ -1,4 +1,5 @@
-﻿// Updated: 2025-12-19 13:14:13 - style(ui): add database schema in ui
+﻿// Updated: 2025-12-19 13:14:53 - fix(socket): implement patient form in socket
+// Updated: 2025-12-19 13:14:13 - style(ui): add database schema in ui
 // Updated: 2025-12-19 13:14:11 - refactor(triage): implement triage API endpoints
 // Updated: 2025-12-19 13:14:06 - test(database): optimize database UI components (fixes #3)
 // Updated: 2025-12-19 13:14:05 - perf(validation): add API endpoints in validation
@@ -124,6 +125,7 @@ const connectDB = async () => {
 };
 
 export default connectDB;
+
 
 
 
