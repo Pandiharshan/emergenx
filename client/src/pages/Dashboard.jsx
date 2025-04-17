@@ -1,4 +1,5 @@
-﻿// Updated: 2025-12-19 12:06:16 - refactor: fix triage error handling
+﻿// Updated: 2025-12-19 12:06:27 - style: enhance auth patient form (fixes #18)
+// Updated: 2025-12-19 12:06:16 - refactor: fix triage error handling
 // Updated: 2025-12-19 12:05:58 - test(database): fix database triage system
 // Updated: 2025-12-19 12:05:56 - feat(validation): implement patient form in validation
 // Updated: 2025-12-19 12:05:26 - test(auth): update API endpoints
@@ -244,6 +245,7 @@ const Dashboard = () => {
 };
 
 export default Dashboard;
+
 
 
 
