@@ -1,4 +1,5 @@
-﻿// Updated: 2025-12-19 12:06:23 - test(socket): implement authentication in socket (fixes #19)
+﻿// Updated: 2025-12-19 12:06:28 - style(socket): fix database schema in socket
+// Updated: 2025-12-19 12:06:23 - test(socket): implement authentication in socket (fixes #19)
 // Updated: 2025-12-19 12:06:20 - test(api): refactor authentication in api
 // Updated: 2025-12-19 12:06:15 - test(api): update patient form
 // Updated: 2025-12-19 12:06:00 - test(ui): refactor database schema in ui
@@ -304,6 +305,7 @@ const Header = ({ theme, toggleTheme }) => {
 };
 
 export default Header;
+
 
 
 
