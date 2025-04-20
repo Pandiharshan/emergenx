@@ -1,4 +1,5 @@
-﻿// Updated: 2025-12-19 12:06:14 - chore: fix api database schema
+﻿// Updated: 2025-12-19 12:06:29 - feat(patient): add dashboard
+// Updated: 2025-12-19 12:06:14 - chore: fix api database schema
 // Updated: 2025-12-19 12:06:11 - style(triage): implement triage API endpoints
 // Updated: 2025-12-19 12:05:46 - test: fix validation patient form
 // Updated: 2025-12-19 12:05:41 - refactor(patient): improve patient form in patient
@@ -192,6 +193,7 @@ export const useAuth = () => {
   
   return context;
 };
+
 
 
 
