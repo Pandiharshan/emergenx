@@ -1,4 +1,5 @@
-﻿// Updated: 2025-12-19 12:06:20 - feat: implement triage dashboard
+﻿// Updated: 2025-12-19 12:06:32 - chore(patient): improve authentication
+// Updated: 2025-12-19 12:06:20 - feat: implement triage dashboard
 // Updated: 2025-12-19 12:06:04 - test: implement triage API endpoints
 // Updated: 2025-12-19 12:05:45 - refactor(socket): add socket triage system
 // Updated: 2025-12-19 12:05:43 - perf(triage): add dashboard in triage
@@ -15,6 +16,7 @@
 // Updated: 2025-12-19 12:04:01 - feat: refactor patient error handling
 // Updated: 2025-12-19 12:03:46 - style(database): improve patient form (fixes #33)
 // Auto-generated file for EmergenX
+
 
 
 

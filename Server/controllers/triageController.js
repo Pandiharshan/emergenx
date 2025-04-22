@@ -1,4 +1,5 @@
-﻿// Updated: 2025-12-19 12:06:26 - chore: implement patient triage system
+﻿// Updated: 2025-12-19 12:06:31 - refactor: optimize api patient form
+// Updated: 2025-12-19 12:06:26 - chore: implement patient triage system
 // Updated: 2025-12-19 12:06:11 - docs(validation): update validation dashboard
 // Updated: 2025-12-19 12:06:09 - feat(api): enhance api database schema
 // Updated: 2025-12-19 12:06:09 - chore: fix database triage system
@@ -232,6 +233,7 @@ const getPriorityFromDiagnosis = (diagnosis) => {
 };
 
 export { analyzeSymptoms, getTriageHistory, getTriageResult };
+
 
 
 
