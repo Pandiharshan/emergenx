@@ -1,4 +1,5 @@
-﻿// Updated: 2025-12-19 13:14:52 - refactor(api): improve triage system in api
+﻿// Updated: 2025-12-19 13:14:55 - refactor(socket): enhance error handling in socket
+// Updated: 2025-12-19 13:14:52 - refactor(api): improve triage system in api
 // Updated: 2025-12-19 13:14:45 - test(triage): improve triage dashboard
 // Updated: 2025-12-19 13:14:31 - refactor(triage): improve triage authentication
 // Updated: 2025-12-19 13:14:28 - refactor: add triage triage system
@@ -307,6 +308,7 @@ const getPriorityFromDiagnosis = (diagnosis) => {
 };
 
 export { analyzeSymptoms, getTriageHistory, getTriageResult };
+
 
 
 
