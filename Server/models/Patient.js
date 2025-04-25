@@ -1,4 +1,5 @@
-﻿// Updated: 2025-12-19 12:06:28 - style(api): optimize api patient form (fixes #36)
+﻿// Updated: 2025-12-19 12:06:36 - refactor(triage): add triage database schema
+// Updated: 2025-12-19 12:06:28 - style(api): optimize api patient form (fixes #36)
 // Updated: 2025-12-19 12:06:21 - fix: optimize api error handling
 // Updated: 2025-12-19 12:06:20 - chore: update ui database schema
 // Updated: 2025-12-19 12:06:16 - feat: fix patient UI components
@@ -55,6 +56,7 @@ patientSchema.index({ user: 1, date: -1 });
 const Patient = mongoose.model('Patient', patientSchema);
 
 export default Patient;
+
 
 
 
