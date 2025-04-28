@@ -1,4 +1,5 @@
-﻿// Updated: 2025-12-19 12:06:23 - style(database): update error handling in database
+﻿// Updated: 2025-12-19 12:06:38 - style: refactor api database schema
+// Updated: 2025-12-19 12:06:23 - style(database): update error handling in database
 // Updated: 2025-12-19 12:06:15 - feat: implement auth dashboard
 // Updated: 2025-12-19 12:06:13 - docs: fix validation database schema
 // Updated: 2025-12-19 12:06:03 - feat(patient): improve triage system in patient
@@ -32,6 +33,7 @@ router.post('/register', registerUser);
 router.post('/login', loginUser);
 
 export default router;
+
 
 
 
