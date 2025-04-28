@@ -1,4 +1,5 @@
-﻿// Updated: 2025-12-19 12:06:33 - test(ui): implement API endpoints
+﻿// Updated: 2025-12-19 12:06:39 - fix: refactor triage API endpoints
+// Updated: 2025-12-19 12:06:33 - test(ui): implement API endpoints
 // Updated: 2025-12-19 12:06:12 - chore(auth): refactor error handling in auth (fixes #22)
 // Updated: 2025-12-19 12:06:01 - refactor(validation): refactor patient form in validation
 // Updated: 2025-12-19 12:05:54 - chore(database): improve patient form in database
@@ -21,6 +22,7 @@
 // Updated: 2025-12-19 12:03:42 - chore: update validation API endpoints
 // Updated: 2025-12-19 12:03:39 - refactor(socket): add error handling
 // Auto-generated file for EmergenX
+
 
 
 
