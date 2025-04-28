@@ -1,4 +1,5 @@
-﻿// Updated: 2025-12-19 12:06:26 - chore(patient): fix patient error handling
+﻿// Updated: 2025-12-19 12:06:37 - refactor(auth): improve triage system in auth
+// Updated: 2025-12-19 12:06:26 - chore(patient): fix patient error handling
 // Updated: 2025-12-19 12:06:21 - perf(triage): update dashboard in triage
 // Updated: 2025-12-19 12:06:11 - chore: update triage triage system (fixes #1)
 // Updated: 2025-12-19 12:06:01 - fix(triage): fix authentication (fixes #20)
@@ -186,6 +187,7 @@ server.listen(PORT, () => {
   console.log(`ðŸš€ EmergenX Server running on port ${PORT}`);
   console.log(`ðŸ“ž WebSocket server ready for real-time calls`);
 });
+
 
 
 
