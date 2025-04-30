@@ -1,4 +1,5 @@
-﻿// Updated: 2025-12-19 12:06:25 - fix(triage): improve error handling
+﻿// Updated: 2025-12-19 12:06:41 - refactor: fix database authentication (fixes #42)
+// Updated: 2025-12-19 12:06:25 - fix(triage): improve error handling
 // Updated: 2025-12-19 12:06:22 - fix(socket): enhance socket error handling
 // Updated: 2025-12-19 12:06:21 - chore: update ui API endpoints (fixes #22)
 // Updated: 2025-12-19 12:06:19 - style(validation): fix patient form in validation
@@ -85,6 +86,7 @@ userSchema.methods.toJSON = function () {
 const User = mongoose.model('User', userSchema);
 
 export default User;
+
 
 
 
