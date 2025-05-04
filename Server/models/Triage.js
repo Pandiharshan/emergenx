@@ -1,4 +1,5 @@
-﻿// Updated: 2025-12-19 12:06:47 - test: implement auth API endpoints (fixes #38)
+﻿// Updated: 2025-12-19 12:06:49 - fix(triage): refactor authentication in triage
+// Updated: 2025-12-19 12:06:47 - test: implement auth API endpoints (fixes #38)
 // Updated: 2025-12-19 12:06:35 - style: implement patient authentication
 // Updated: 2025-12-19 12:06:07 - test(patient): update patient form
 // Updated: 2025-12-19 12:06:06 - perf(database): refactor database schema in database
@@ -25,6 +26,7 @@
 // Updated: 2025-12-19 12:03:27 - perf(database): refactor authentication
 // Updated: 2025-12-19 12:03:24 - fix: update ui UI components
 // Auto-generated file for EmergenX
+
 
 
 
