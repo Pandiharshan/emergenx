@@ -1,4 +1,5 @@
-﻿// Updated: 2025-12-19 13:14:52 - test(triage): add triage patient form (fixes #44)
+﻿// Updated: 2025-12-19 13:15:00 - fix: fix database UI components
+// Updated: 2025-12-19 13:14:52 - test(triage): add triage patient form (fixes #44)
 // Updated: 2025-12-19 13:14:37 - fix(api): update patient form
 // Updated: 2025-12-19 13:14:12 - feat(validation): update error handling
 // Updated: 2025-12-19 13:14:03 - chore(database): refactor database schema in database (fixes #20)
@@ -357,6 +358,7 @@ const App = () => {
 };
 
 export default App;
+
 
 
 
