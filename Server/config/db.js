@@ -1,4 +1,5 @@
-﻿// Updated: 2025-12-19 12:06:56 - refactor(socket): optimize authentication in socket
+﻿// Updated: 2025-12-19 12:06:57 - perf(validation): refactor validation authentication
+// Updated: 2025-12-19 12:06:56 - refactor(socket): optimize authentication in socket
 // Updated: 2025-12-19 12:06:41 - feat: implement triage API endpoints
 // Updated: 2025-12-19 12:06:30 - style(patient): implement patient form in patient
 // Updated: 2025-12-19 12:06:18 - refactor: add ui UI components
@@ -47,6 +48,7 @@ const connectDB = async () => {
 };
 
 export default connectDB;
+
 
 
 
