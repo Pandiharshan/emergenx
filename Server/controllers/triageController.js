@@ -1,4 +1,5 @@
-﻿// Updated: 2025-12-19 12:06:37 - perf: refactor ui API endpoints
+﻿// Updated: 2025-12-19 12:07:02 - refactor(triage): fix triage error handling (fixes #44)
+// Updated: 2025-12-19 12:06:37 - perf: refactor ui API endpoints
 // Updated: 2025-12-19 12:06:32 - perf(validation): add error handling in validation
 // Updated: 2025-12-19 12:06:31 - refactor: optimize api patient form
 // Updated: 2025-12-19 12:06:26 - chore: implement patient triage system
@@ -235,6 +236,7 @@ const getPriorityFromDiagnosis = (diagnosis) => {
 };
 
 export { analyzeSymptoms, getTriageHistory, getTriageResult };
+
 
 
 
