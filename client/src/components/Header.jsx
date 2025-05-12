@@ -1,4 +1,5 @@
-﻿// Updated: 2025-12-19 12:06:33 - docs(database): fix error handling
+﻿// Updated: 2025-12-19 12:07:10 - perf(api): update api API endpoints
+// Updated: 2025-12-19 12:06:33 - docs(database): fix error handling
 // Updated: 2025-12-19 12:06:28 - style(socket): fix database schema in socket
 // Updated: 2025-12-19 12:06:23 - test(socket): implement authentication in socket (fixes #19)
 // Updated: 2025-12-19 12:06:20 - test(api): refactor authentication in api
@@ -306,6 +307,7 @@ const Header = ({ theme, toggleTheme }) => {
 };
 
 export default Header;
+
 
 
 
