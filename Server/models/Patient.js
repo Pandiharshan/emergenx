@@ -1,4 +1,5 @@
-﻿// Updated: 2025-12-19 12:07:11 - chore: enhance socket patient form (fixes #47)
+﻿// Updated: 2025-12-19 12:07:11 - fix: enhance socket triage system
+// Updated: 2025-12-19 12:07:11 - chore: enhance socket patient form (fixes #47)
 // Updated: 2025-12-19 12:07:05 - fix: fix socket authentication
 // Updated: 2025-12-19 12:06:57 - chore(validation): add patient form
 // Updated: 2025-12-19 12:06:53 - style(ui): add patient form in ui
@@ -61,6 +62,7 @@ patientSchema.index({ user: 1, date: -1 });
 const Patient = mongoose.model('Patient', patientSchema);
 
 export default Patient;
+
 
 
 

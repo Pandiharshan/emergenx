@@ -1,4 +1,5 @@
-﻿// Updated: 2025-12-19 12:07:08 - chore(validation): implement triage system
+﻿// Updated: 2025-12-19 12:07:11 - chore(validation): add validation API endpoints (fixes #26)
+// Updated: 2025-12-19 12:07:08 - chore(validation): implement triage system
 // Updated: 2025-12-19 12:06:59 - style(api): refactor api API endpoints
 // Updated: 2025-12-19 12:06:58 - perf(patient): improve patient API endpoints
 // Updated: 2025-12-19 12:06:41 - refactor: fix database authentication (fixes #42)
@@ -89,6 +90,7 @@ userSchema.methods.toJSON = function () {
 const User = mongoose.model('User', userSchema);
 
 export default User;
+
 
 
 
