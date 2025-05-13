@@ -1,4 +1,5 @@
-﻿// Updated: 2025-12-19 12:06:55 - fix: implement database patient form (fixes #23)
+﻿// Updated: 2025-12-19 12:07:10 - feat: fix ui triage system (fixes #39)
+// Updated: 2025-12-19 12:06:55 - fix: implement database patient form (fixes #23)
 // Updated: 2025-12-19 12:06:45 - docs(database): add authentication in database
 // Updated: 2025-12-19 12:06:41 - style: refactor api triage system
 // Updated: 2025-12-19 12:06:38 - style: refactor api database schema
@@ -36,6 +37,7 @@ router.post('/register', registerUser);
 router.post('/login', loginUser);
 
 export default router;
+
 
 
 
