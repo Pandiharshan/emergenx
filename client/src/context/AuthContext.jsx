@@ -1,4 +1,5 @@
-﻿// Updated: 2025-12-19 12:06:56 - chore(database): optimize database error handling
+﻿// Updated: 2025-12-19 12:07:14 - refactor: enhance ui API endpoints
+// Updated: 2025-12-19 12:06:56 - chore(database): optimize database error handling
 // Updated: 2025-12-19 12:06:46 - test(socket): improve socket error handling
 // Updated: 2025-12-19 12:06:30 - chore: add socket UI components
 // Updated: 2025-12-19 12:06:29 - feat(patient): add dashboard
@@ -196,6 +197,7 @@ export const useAuth = () => {
   
   return context;
 };
+
 
 
 
