@@ -1,4 +1,5 @@
-﻿// Updated: 2025-12-19 12:07:14 - refactor: enhance ui API endpoints
+﻿// Updated: 2025-12-19 12:07:23 - refactor: fix auth database schema
+// Updated: 2025-12-19 12:07:14 - refactor: enhance ui API endpoints
 // Updated: 2025-12-19 12:06:56 - chore(database): optimize database error handling
 // Updated: 2025-12-19 12:06:46 - test(socket): improve socket error handling
 // Updated: 2025-12-19 12:06:30 - chore: add socket UI components
@@ -197,6 +198,7 @@ export const useAuth = () => {
   
   return context;
 };
+
 
 
 
