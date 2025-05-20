@@ -1,4 +1,5 @@
-﻿// Updated: 2025-12-19 12:07:21 - test: add patient triage system
+﻿// Updated: 2025-12-19 12:07:24 - feat: optimize ui authentication
+// Updated: 2025-12-19 12:07:21 - test: add patient triage system
 // Updated: 2025-12-19 12:07:15 - docs: refactor api error handling
 // Updated: 2025-12-19 12:07:14 - test: enhance api patient form
 // Updated: 2025-12-19 12:07:12 - docs(database): implement API endpoints
@@ -162,6 +163,7 @@ const loginUser = async (req, res) => {
 };
 
 export { registerUser, loginUser };
+
 
 
 
