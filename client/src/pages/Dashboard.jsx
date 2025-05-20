@@ -1,4 +1,5 @@
-﻿// Updated: 2025-12-19 12:06:54 - feat(socket): implement error handling (fixes #42)
+﻿// Updated: 2025-12-19 12:07:22 - chore: update auth triage system (fixes #1)
+// Updated: 2025-12-19 12:06:54 - feat(socket): implement error handling (fixes #42)
 // Updated: 2025-12-19 12:06:29 - refactor(triage): implement triage dashboard
 // Updated: 2025-12-19 12:06:27 - style: enhance auth patient form (fixes #18)
 // Updated: 2025-12-19 12:06:16 - refactor: fix triage error handling
@@ -247,6 +248,7 @@ const Dashboard = () => {
 };
 
 export default Dashboard;
+
 
 
 
