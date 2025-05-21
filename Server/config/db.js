@@ -1,4 +1,5 @@
-﻿// Updated: 2025-12-19 12:07:26 - chore(ui): update database schema
+﻿// Updated: 2025-12-19 12:07:28 - docs(auth): add auth API endpoints
+// Updated: 2025-12-19 12:07:26 - chore(ui): update database schema
 // Updated: 2025-12-19 12:07:03 - refactor(triage): fix triage system in triage
 // Updated: 2025-12-19 12:06:57 - perf(validation): refactor validation authentication
 // Updated: 2025-12-19 12:06:56 - refactor(socket): optimize authentication in socket
@@ -50,6 +51,7 @@ const connectDB = async () => {
 };
 
 export default connectDB;
+
 
 
 
