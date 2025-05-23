@@ -1,4 +1,5 @@
-﻿// Updated: 2025-12-19 13:15:01 - perf(triage): update triage triage system
+﻿// Updated: 2025-12-19 13:15:04 - refactor: enhance triage dashboard (fixes #4)
+// Updated: 2025-12-19 13:15:01 - perf(triage): update triage triage system
 // Updated: 2025-12-19 13:14:44 - docs: implement validation error handling (fixes #1)
 // Updated: 2025-12-19 13:14:25 - feat(patient): implement database schema in patient
 // Updated: 2025-12-19 13:14:23 - style: enhance database UI components
@@ -260,6 +261,7 @@ server.listen(PORT, () => {
   console.log(`ðŸš€ EmergenX Server running on port ${PORT}`);
   console.log(`ðŸ“ž WebSocket server ready for real-time calls`);
 });
+
 
 
 

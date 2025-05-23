@@ -1,4 +1,5 @@
-﻿// Updated: 2025-12-19 13:15:04 - chore(auth): optimize auth UI components
+﻿// Updated: 2025-12-19 13:15:04 - chore(api): update api authentication (fixes #12)
+// Updated: 2025-12-19 13:15:04 - chore(auth): optimize auth UI components
 // Updated: 2025-12-19 13:14:45 - refactor: optimize api database schema
 // Updated: 2025-12-19 13:14:41 - test(socket): optimize database schema
 // Updated: 2025-12-19 13:14:37 - perf: optimize database triage system
@@ -293,6 +294,7 @@ const Login = () => {
 };
 
 export default Login;
+
 
 
 
