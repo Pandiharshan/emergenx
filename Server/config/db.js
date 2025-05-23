@@ -1,4 +1,5 @@
-﻿// Updated: 2025-12-19 13:14:56 - test(database): refactor database schema in database
+﻿// Updated: 2025-12-19 13:15:03 - style(database): implement API endpoints
+// Updated: 2025-12-19 13:14:56 - test(database): refactor database schema in database
 // Updated: 2025-12-19 13:14:53 - fix(socket): implement patient form in socket
 // Updated: 2025-12-19 13:14:13 - style(ui): add database schema in ui
 // Updated: 2025-12-19 13:14:11 - refactor(triage): implement triage API endpoints
@@ -126,6 +127,7 @@ const connectDB = async () => {
 };
 
 export default connectDB;
+
 
 
 
