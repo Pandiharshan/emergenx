@@ -1,4 +1,5 @@
-﻿// Updated: 2025-12-19 13:14:45 - docs(database): enhance database schema
+﻿// Updated: 2025-12-19 13:15:08 - refactor(triage): implement patient form
+// Updated: 2025-12-19 13:14:45 - docs(database): enhance database schema
 // Updated: 2025-12-19 13:14:32 - chore: fix validation API endpoints
 // Updated: 2025-12-19 13:14:17 - docs(socket): update socket dashboard
 // Updated: 2025-12-19 13:14:16 - perf: implement auth error handling
@@ -375,6 +376,7 @@ const Header = ({ theme, toggleTheme }) => {
 };
 
 export default Header;
+
 
 
 
