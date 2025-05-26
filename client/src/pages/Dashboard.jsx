@@ -1,4 +1,5 @@
-﻿// Updated: 2025-12-19 13:14:57 - feat(socket): optimize socket triage system
+﻿// Updated: 2025-12-19 13:15:06 - docs(auth): add API endpoints
+// Updated: 2025-12-19 13:14:57 - feat(socket): optimize socket triage system
 // Updated: 2025-12-19 13:14:52 - perf: fix ui dashboard
 // Updated: 2025-12-19 13:14:46 - docs(patient): enhance API endpoints in patient
 // Updated: 2025-12-19 13:14:40 - chore(auth): refactor auth patient form
@@ -342,6 +343,7 @@ const Dashboard = () => {
 };
 
 export default Dashboard;
+
 
 
 
