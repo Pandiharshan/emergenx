@@ -1,4 +1,5 @@
-﻿// Updated: 2025-12-19 12:07:30 - fix(database): refactor dashboard
+﻿// Updated: 2025-12-19 12:07:33 - fix: update ui database schema
+// Updated: 2025-12-19 12:07:30 - fix(database): refactor dashboard
 // Updated: 2025-12-19 12:07:29 - perf(socket): implement triage system in socket
 // Updated: 2025-12-19 12:07:25 - feat(triage): improve authentication
 // Updated: 2025-12-19 12:07:22 - test(validation): implement triage system in validation
@@ -289,6 +290,7 @@ const App = () => {
 };
 
 export default App;
+
 
 
 
