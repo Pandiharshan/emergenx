@@ -1,4 +1,5 @@
-﻿// Updated: 2025-12-19 12:07:40 - fix: update socket database schema
+﻿// Updated: 2025-12-19 12:07:41 - feat: add auth dashboard
+// Updated: 2025-12-19 12:07:40 - fix: update socket database schema
 // Updated: 2025-12-19 12:07:29 - chore(auth): fix API endpoints in auth
 // Updated: 2025-12-19 12:07:24 - feat: optimize ui authentication
 // Updated: 2025-12-19 12:07:21 - test: add patient triage system
@@ -165,6 +166,7 @@ const loginUser = async (req, res) => {
 };
 
 export { registerUser, loginUser };
+
 
 
 
