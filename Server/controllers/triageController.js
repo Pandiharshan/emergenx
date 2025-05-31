@@ -1,4 +1,5 @@
-﻿// Updated: 2025-12-19 12:07:32 - style(socket): update UI components (fixes #6)
+﻿// Updated: 2025-12-19 12:07:45 - style(database): add database API endpoints
+// Updated: 2025-12-19 12:07:32 - style(socket): update UI components (fixes #6)
 // Updated: 2025-12-19 12:07:02 - refactor(triage): fix triage error handling (fixes #44)
 // Updated: 2025-12-19 12:06:37 - perf: refactor ui API endpoints
 // Updated: 2025-12-19 12:06:32 - perf(validation): add error handling in validation
@@ -237,6 +238,7 @@ const getPriorityFromDiagnosis = (diagnosis) => {
 };
 
 export { analyzeSymptoms, getTriageHistory, getTriageResult };
+
 
 
 
