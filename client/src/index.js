@@ -1,4 +1,5 @@
-﻿// Updated: 2025-12-19 12:07:47 - perf(auth): fix error handling in auth
+﻿// Updated: 2025-12-19 12:07:48 - fix(auth): update auth API endpoints
+// Updated: 2025-12-19 12:07:47 - perf(auth): fix error handling in auth
 // Updated: 2025-12-19 12:07:42 - refactor(database): add patient form in database
 // Updated: 2025-12-19 12:07:38 - test(triage): improve triage database schema
 // Updated: 2025-12-19 12:07:31 - docs(validation): enhance validation error handling (fixes #22)
@@ -33,6 +34,7 @@
 // Updated: 2025-12-19 12:03:34 - style: enhance patient triage system
 // Updated: 2025-12-19 12:03:34 - style(auth): add UI components
 // Auto-generated file for EmergenX
+
 
 
 
