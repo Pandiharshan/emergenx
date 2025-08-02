@@ -38,11 +38,43 @@ EmergenX combines "Emergency" and "Next-gen execution", symbolizing speed, innov
 - MongoDB
 - npm or yarn
 
+### Quick Start
+```bash
+# 1. Clone and setup
+git clone https://github.com/your-username/emergenx.git
+cd emergenx
+./setup.sh  # or setup.bat on Windows
+
+# 2. Start MongoDB service
+
+# 3. Run the application
+cd Server && npm run dev    # Terminal 1
+cd client && npm run dev    # Terminal 2
+
+# 4. Open http://localhost:5173 in your browser
+```
+
 ### Installation
 
+#### Quick Setup (Recommended)
+```bash
+# Clone the repository
+git clone https://github.com/your-username/emergenx.git
+cd emergenx
+
+# Run setup script
+# For Linux/Mac:
+chmod +x setup.sh
+./setup.sh
+
+# For Windows:
+setup.bat
+```
+
+#### Manual Setup
 1. **Clone the repository**
    ```bash
-   git clone https://github.com/YOUR_USERNAME/emergenx.git
+   git clone https://github.com/your-username/emergenx.git
    cd emergenx
    ```
 
