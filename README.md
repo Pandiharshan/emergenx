@@ -15,6 +15,9 @@ EmergenX combines "Emergency" and "Next-gen execution", symbolizing speed, innov
 - **Modern UI/UX**: Responsive design with intuitive user interface
 - **Real-time Processing**: Fast and efficient symptom evaluation
 
+🎮 **Play it live:**
+👉 [Click here to try EmergenX](https://pandiharshan.github.io/emergenx/)
+
 ## 🛠️ Tech Stack
 
 ### Frontend
