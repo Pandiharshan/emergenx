@@ -74,7 +74,7 @@ const Triage = () => {
           <section className="welcome-card">
             <div className="card-header">
               <div className="card-icon">🧬</div>
-              <h2>Welcome to TriageX</h2>
+              <h2>Welcome to EmergenX</h2>
             </div>
             
             <div className="card-content">

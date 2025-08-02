@@ -64,7 +64,7 @@ const Home = () => {
       {/* Features Section */}
       <section className="features-section">
         <div className="container">
-          <h2 className="section-title">Why Choose TriageX?</h2>
+          <h2 className="section-title">Why Choose EmergenX?</h2>
           <div className="features-grid">
             {features.map((feature, index) => (
               <div key={index} className="feature-card">
@@ -87,7 +87,7 @@ const Home = () => {
               Built for patients. <span className="mission-highlight">Trusted by doctors.</span>
             </h2>
             <p className="mission-description">
-              TriageX bridges the gap between patients and healthcare providers by delivering 
+              EmergenX bridges the gap between patients and healthcare providers by delivering 
               intelligent, preliminary medical assessments. Our platform empowers users to make 
               informed decisions about their health while supporting medical professionals with 
               data-driven insights.

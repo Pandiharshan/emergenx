@@ -15,12 +15,12 @@ const initializeApp = () => {
   // Set initial theme based on system preference if no saved preference exists
   const initializeTheme = () => {
     try {
-      const savedTheme = localStorage.getItem('triagex-theme');
+              const savedTheme = localStorage.getItem('emergenx-theme');
       if (!savedTheme) {
         const systemPreference = window.matchMedia('(prefers-color-scheme: dark)').matches;
         const initialTheme = systemPreference ? 'dark' : 'light';
         document.documentElement.setAttribute('data-theme', initialTheme);
-        localStorage.setItem('triagex-theme', initialTheme);
+                  localStorage.setItem('emergenx-theme', initialTheme);
       } else {
         document.documentElement.setAttribute('data-theme', savedTheme);
       }
@@ -152,12 +152,12 @@ const renderApp = () => {
  * Application startup
  */
 try {
-  console.log('Starting TriageX application...');
+  console.log('Starting EmergenX application...');
   initializeApp();
   renderApp();
-  console.log('TriageX application started successfully');
+  console.log('EmergenX application started successfully');
 } catch (error) {
-  console.error('Failed to start TriageX application:', error);
+  console.error('Failed to start EmergenX application:', error);
   
   // Show user-friendly error message
   const rootElement = document.getElementById('root');
@@ -177,7 +177,7 @@ try {
         <div>
           <h1 style="color: #dc2626; margin-bottom: 16px;">Application Error</h1>
           <p style="margin-bottom: 16px;">
-            TriageX encountered an error during startup. Please refresh the page or contact support.
+            EmergenX encountered an error during startup. Please refresh the page or contact support.
           </p>
           <button 
             onclick="window.location.reload()"

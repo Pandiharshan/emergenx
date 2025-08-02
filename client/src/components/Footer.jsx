@@ -43,7 +43,7 @@ const Footer = () => {
         {/* Copyright */}
         <div className="footer-copyright">
           <p className="copyright-text">
-            © {currentYear} TriageX. All rights reserved.
+            © {currentYear} EmergenX. All rights reserved.
           </p>
         </div>
 

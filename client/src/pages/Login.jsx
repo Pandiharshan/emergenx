@@ -96,7 +96,7 @@ const Login = () => {
               <div className="logo-icon">
                 <span className="medical-cross">⚕</span>
               </div>
-              <h1 className="login-title">TriageX</h1>
+              <h1 className="login-title">EmergenX</h1>
             </div>
             <p className="login-subtitle">Welcome back to your healthcare dashboard</p>
           </div>

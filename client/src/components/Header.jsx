@@ -76,7 +76,7 @@ const Header = ({ theme, toggleTheme }) => {
               aria-label="Go to home page"
             >
               <span className="logo-icon">🩺</span>
-              <span className="logo-text">TriageX</span>
+              <span className="logo-text">EmergenX</span>
             </button>
           </div>
 
