@@ -2,6 +2,15 @@
 
 A full-stack web application for intelligent medical triage and symptom assessment, built with React, Node.js, and MongoDB.
 
+## 🌐 Live Demo
+
+🚀 **Try EmergenX Now**: [Click here to access the live application](https://emergenx.vercel.app)
+
+- **Frontend**: https://emergenx.vercel.app
+- **Backend API**: https://emergenx-backend.onrender.com
+
+*No setup required - works immediately!*
+
 ## 🎯 Project Overview
 
 EmergenX combines "Emergency" and "Next-gen execution", symbolizing speed, innovation, and efficiency in medical triage. The application helps users quickly assess the urgency of their symptoms and receive intelligent triage suggestions.
@@ -35,8 +44,15 @@ EmergenX combines "Emergency" and "Next-gen execution", symbolizing speed, innov
 
 ### Prerequisites
 - Node.js (v16 or higher)
-- MongoDB
+- MongoDB (local installation or MongoDB Atlas account)
 - npm or yarn
+
+### 🎯 What You'll Get
+- **User Registration & Login**: Secure authentication system
+- **Symptom Assessment**: Interactive form for medical triage
+- **Smart Suggestions**: Intelligent triage recommendations
+- **History Tracking**: View your past assessments
+- **Modern UI**: Responsive design with dark/light theme
 
 ### Quick Start
 ```bash
@@ -45,13 +61,20 @@ git clone https://github.com/your-username/emergenx.git
 cd emergenx
 ./setup.sh  # or setup.bat on Windows
 
-# 2. Start MongoDB service
+# 2. Set up environment
+cd Server
+cp env.example .env
+# Edit .env file with your MongoDB connection
 
-# 3. Run the application
+# 3. Start MongoDB service
+# - Windows: Start MongoDB from Services
+# - Mac/Linux: sudo systemctl start mongod
+
+# 4. Run the application
 cd Server && npm run dev    # Terminal 1
 cd client && npm run dev    # Terminal 2
 
-# 4. Open http://localhost:5173 in your browser
+# 5. Open http://localhost:5173 in your browser
 ```
 
 ### Installation
@@ -90,8 +113,16 @@ setup.bat
    ```
 
 3. **Environment Setup**
-   - Create `.env` file in the Server directory
-   - Add your MongoDB connection string and JWT secret
+   ```bash
+   # Copy the example environment file
+   cd Server
+   cp env.example .env
+   
+   # Edit .env file with your settings
+   # - For local MongoDB: mongodb://localhost:27017/emergenx
+   # - For MongoDB Atlas: mongodb+srv://username:password@cluster.mongodb.net/emergenx
+   # - Change JWT_SECRET to a secure random string
+   ```
 
 4. **Run the application**
    ```bash

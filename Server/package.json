@@ -3,20 +3,19 @@
   "version": "1.0.0",
   "type": "module",
   "main": "index.js",
-  "repository": {
-    "type": "git",
-    "url": "https://github.com/pandiharshan/emergenx.git"
-  },
-
   "scripts": {
     "start": "node index.js",
     "dev": "nodemon index.js",
+    "build": "echo 'No build step required for Node.js'",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
-  "keywords": [],
-  "author": "",
+  "keywords": ["emergenx", "medical", "triage", "healthcare"],
+  "author": "PandiHarshan",
   "license": "ISC",
-  "description": "",
+  "description": "EmergenX Backend API - Smart Medical Triage System",
+  "engines": {
+    "node": ">=16.0.0"
+  },
   "dependencies": {
     "bcryptjs": "^2.4.3",
     "cors": "^2.8.5",
@@ -28,5 +27,4 @@
   "devDependencies": {
     "nodemon": "^3.0.2"
   }
-  
 }
