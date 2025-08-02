@@ -107,12 +107,12 @@ const Dashboard = () => {
           <div className="action-card primary-action">
             <div className="action-icon">🏥</div>
             <h3>Start New Assessment</h3>
-            <p>Begin a new health triage assessment to get personalized care recommendations.</p>
+            <p>Begin a new health emergency assessment to get personalized care recommendations.</p>
             <button 
               className="action-button primary"
               onClick={handleStartNewTriage}
             >
-              Start New Triage
+                              Start New Assessment
             </button>
           </div>
 
@@ -129,8 +129,8 @@ const Dashboard = () => {
           </div>
         </div>
 
-        {/* Recent Triage Summary */}
-        <div className="recent-triage-section">
+                      {/* Recent Assessment Summary */}
+              <div className="recent-triage-section">
           <h2>Recent Assessment</h2>
           
           {error && (
@@ -190,7 +190,7 @@ const Dashboard = () => {
             <div className="no-triage-card">
               <div className="no-triage-icon">🔍</div>
               <h3>No Previous Assessments</h3>
-              <p>You haven't completed any health assessments yet. Start your first triage to get personalized care recommendations.</p>
+              <p>You haven't completed any health assessments yet. Start your first emergency assessment to get personalized care recommendations.</p>
               <button 
                 className="action-button primary"
                 onClick={handleStartNewTriage}

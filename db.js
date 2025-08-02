@@ -2,9 +2,7 @@ import mongoose from 'mongoose';
 
 const connectDB = async () => {
   try {
-    // Use MONGO_URI for consistency with your setup
-    const mongoUri = process.env.MONGO_URI || 'mongodb://localhost:27017/emergenx';
-    const conn = await mongoose.connect(mongoUri, {
+    const conn = await mongoose.connect(process.env.MONGO_URI, {
       useNewUrlParser: true,
       useUnifiedTopology: true,
     });
@@ -12,7 +10,6 @@ const connectDB = async () => {
     console.log(`✅ MongoDB Connected: ${conn.connection.host}`);
   } catch (error) {
     console.error('❌ MongoDB connection failed:', error.message);
-    console.error('Please ensure MongoDB is running and accessible');
     process.exit(1);
   }
 };

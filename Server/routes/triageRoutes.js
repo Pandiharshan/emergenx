@@ -1,5 +1,5 @@
 import express from 'express';
-import { analyzeSymptoms, getTriageHistory, getTriageResult } from '../Controllers/triageController.js';
+import { analyzeSymptoms, getTriageHistory, getTriageResult } from '../controllers/triageController.js';
 import authMiddleware from '../middleware/authMiddleware.js';
 
 const router = express.Router();

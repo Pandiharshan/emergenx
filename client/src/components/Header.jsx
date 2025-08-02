@@ -76,7 +76,7 @@ const Header = ({ theme, toggleTheme }) => {
               aria-label="Go to home page"
             >
               <span className="logo-icon">🩺</span>
-              <span className="logo-text">TriageX</span>
+              <span className="logo-text">EmergenX</span>
             </button>
           </div>
 
@@ -117,9 +117,9 @@ const Header = ({ theme, toggleTheme }) => {
                         isActive ? 'nav-link active' : 'nav-link'
                       }
                       role="menuitem"
-                      aria-label="Triage Assessment"
+                      aria-label="Emergency Assessment"
                     >
-                      Triage
+                      Assessment
                     </NavLink>
                   </li>
                   <li role="none">
@@ -232,9 +232,9 @@ const Header = ({ theme, toggleTheme }) => {
                     }
                     onClick={handleNavClick}
                     role="menuitem"
-                    aria-label="Triage Assessment"
+                    aria-label="Emergency Assessment"
                   >
-                    Triage
+                    Assessment
                   </NavLink>
                 </li>
                 <li role="none">

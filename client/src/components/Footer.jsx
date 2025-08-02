@@ -43,14 +43,14 @@ const Footer = () => {
         {/* Copyright */}
         <div className="footer-copyright">
           <p className="copyright-text">
-            © {currentYear} TriageX. All rights reserved.
+            © {currentYear} EmergenX. All rights reserved.
           </p>
         </div>
 
         {/* Optional: Brand tagline */}
         <div className="footer-tagline">
           <p className="tagline-text">
-            Your trusted healthcare triage assistant
+            Your trusted healthcare emergency assessment assistant
           </p>
         </div>
       </div>

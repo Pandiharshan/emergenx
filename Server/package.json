@@ -3,6 +3,11 @@
   "version": "1.0.0",
   "type": "module",
   "main": "index.js",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/pandiharshan/emergenx.git"
+  },
+
   "scripts": {
     "start": "node index.js",
     "dev": "nodemon index.js",
@@ -23,4 +28,5 @@
   "devDependencies": {
     "nodemon": "^3.0.2"
   }
+  
 }

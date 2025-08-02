@@ -74,12 +74,12 @@ const Triage = () => {
           <section className="welcome-card">
             <div className="card-header">
               <div className="card-icon">🧬</div>
-              <h2>Welcome to TriageX</h2>
+              <h2>Welcome to EmergenX</h2>
             </div>
             
             <div className="card-content">
               <p className="welcome-text">
-                Hello <strong>{user.name}</strong>! Our intelligent triage system will help you 
+                Hello <strong>{user.name}</strong>! Our intelligent emergency assessment system will help you 
                 understand your symptoms and provide guidance on the appropriate level of care needed.
               </p>
             </div>
@@ -91,9 +91,9 @@ const Triage = () => {
               
               <div className="info-card">
                 <div className="info-icon">🎯</div>
-                <h3>What is Triage?</h3>
+                <h3>What is Emergency Assessment?</h3>
                 <p>
-                  Triage is a process that helps determine the urgency of your medical needs. 
+                  Emergency assessment is a process that helps determine the urgency of your medical needs. 
                   It assesses your symptoms to recommend whether you need immediate care, 
                   can wait for a regular appointment, or can manage your condition at home.
                 </p>
@@ -103,7 +103,7 @@ const Triage = () => {
                 <div className="info-icon">⚡</div>
                 <h3>Why is it Important?</h3>
                 <p>
-                  Proper triage ensures you get the right care at the right time. It helps 
+                  Proper emergency assessment ensures you get the right care at the right time. It helps 
                   avoid unnecessary emergency visits while ensuring serious conditions 
                   receive prompt attention, improving outcomes and reducing healthcare costs.
                 </p>

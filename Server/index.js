@@ -24,7 +24,7 @@ app.use('/api/triage', triageRoutes);
 
 // Health check
 app.get('/', (req, res) => {
-  res.json({ message: 'TriageX Backend API is running!' });
+  res.json({ message: 'EmergenX Backend API is running!' });
 });
 
 // Global error handler
@@ -41,5 +41,5 @@ app.use('*', (req, res) => {
 // Start server
 const PORT = process.env.PORT || 5000;
 app.listen(PORT, () => {
-  console.log(`🚀 TriageX Server running on port ${PORT}`);
+  console.log(`🚀 EmergenX Server running on port ${PORT}`);
 });

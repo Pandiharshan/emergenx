@@ -28,7 +28,7 @@ const Home = () => {
     {
       icon: '🧠',
       title: 'Powered by AI',
-      description: 'Advanced machine learning algorithms trained on medical data to provide accurate triage recommendations.'
+                    description: 'Advanced machine learning algorithms trained on medical data to provide accurate emergency assessment recommendations.'
     }
   ];
 
@@ -39,17 +39,17 @@ const Home = () => {
         <div className="hero-container">
           <div className="hero-content">
             <h1 className="hero-title">
-              Smarter Triage. <span className="highlight">Safer Outcomes.</span>
+              Smarter Emergency Assessment. <span className="highlight">Safer Outcomes.</span>
             </h1>
             <p className="hero-subtitle">
-              AI-driven pre-hospital triage assistance for patients and healthcare providers
+              AI-driven pre-hospital emergency assessment for patients and healthcare providers
             </p>
             <button 
               className="cta-button" 
               onClick={handleStartTriage}
               aria-label="Start medical triage assessment"
             >
-              <span className="cta-text">Start Triage</span>
+              <span className="cta-text">Start Assessment</span>
               <span className="cta-icon">→</span>
             </button>
           </div>
@@ -64,7 +64,7 @@ const Home = () => {
       {/* Features Section */}
       <section className="features-section">
         <div className="container">
-          <h2 className="section-title">Why Choose TriageX?</h2>
+          <h2 className="section-title">Why Choose EmergenX?</h2>
           <div className="features-grid">
             {features.map((feature, index) => (
               <div key={index} className="feature-card">
@@ -87,7 +87,7 @@ const Home = () => {
               Built for patients. <span className="mission-highlight">Trusted by doctors.</span>
             </h2>
             <p className="mission-description">
-              TriageX bridges the gap between patients and healthcare providers by delivering 
+              EmergenX bridges the gap between patients and healthcare providers by delivering 
               intelligent, preliminary medical assessments. Our platform empowers users to make 
               informed decisions about their health while supporting medical professionals with 
               data-driven insights.
@@ -116,7 +116,7 @@ const Home = () => {
           <div className="cta-content">
             <h2 className="cta-title">Ready to Get Started?</h2>
             <p className="cta-description">
-              Take control of your health with intelligent triage assistance.
+              Take control of your health with intelligent emergency assessment.
             </p>
             <button 
               className="cta-button secondary" 

@@ -57,7 +57,7 @@ const ThemeProvider = ({ children }) => {
     // Get theme from localStorage or system preference
     const getInitialTheme = () => {
       try {
-        const savedTheme = localStorage.getItem('triagex-theme');
+        const savedTheme = localStorage.getItem('emergenx-theme');
         if (savedTheme) return savedTheme;
         
         const systemPreference = window.matchMedia('(prefers-color-scheme: dark)').matches;
@@ -79,7 +79,7 @@ const ThemeProvider = ({ children }) => {
     
     // Save theme to localStorage
     try {
-      localStorage.setItem('triagex-theme', theme);
+      localStorage.setItem('emergenx-theme', theme);
     } catch (error) {
       console.warn('Could not save theme to localStorage:', error);
     }
@@ -107,32 +107,32 @@ const App = () => {
 
   useEffect(() => {
     console.log('App mounted');
-    // Get theme from localStorage or system preference
-    const getInitialTheme = () => {
+          // Get theme from localStorage or system preference
+      const getInitialTheme = () => {
+        try {
+          const savedTheme = localStorage.getItem('emergenx-theme');
+          if (savedTheme) return savedTheme;
+          
+          const systemPreference = window.matchMedia('(prefers-color-scheme: dark)').matches;
+          return systemPreference ? 'dark' : 'light';
+        } catch (error) {
+          console.warn('Could not access localStorage:', error);
+          return 'light';
+        }
+      };
+
+      const initialTheme = getInitialTheme();
+      setTheme(initialTheme);
+      setAppLoading(false);
+    }, []);
+
+    useEffect(() => {
+      // Apply theme to document
+      document.documentElement.setAttribute('data-theme', theme);
+      
+      // Save theme to localStorage
       try {
-        const savedTheme = localStorage.getItem('triagex-theme');
-        if (savedTheme) return savedTheme;
-        
-        const systemPreference = window.matchMedia('(prefers-color-scheme: dark)').matches;
-        return systemPreference ? 'dark' : 'light';
-      } catch (error) {
-        console.warn('Could not access localStorage:', error);
-        return 'light';
-      }
-    };
-
-    const initialTheme = getInitialTheme();
-    setTheme(initialTheme);
-    setAppLoading(false);
-  }, []);
-
-  useEffect(() => {
-    // Apply theme to document
-    document.documentElement.setAttribute('data-theme', theme);
-    
-    // Save theme to localStorage
-    try {
-      localStorage.setItem('triagex-theme', theme);
+        localStorage.setItem('emergenx-theme', theme);
     } catch (error) {
       console.warn('Could not save theme to localStorage:', error);
     }

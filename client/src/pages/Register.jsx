@@ -142,7 +142,7 @@ const Register = () => {
               <div className="logo-icon">
                 <span className="medical-cross">⚕</span>
               </div>
-              <h1 className="register-title">Join TriageX</h1>
+              <h1 className="register-title">Join EmergenX</h1>
             </div>
             <p className="register-subtitle">Create your healthcare dashboard account</p>
           </div>
