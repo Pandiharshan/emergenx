@@ -1,0 +1,444 @@
+/* Register.css */
+
+.register-page {
+  --primary-blue: #007bff;
+  --primary-green: #28a745;
+  --light-blue: #e3f2fd;
+  --light-green: #e8f5e8;
+  --text-primary: #2d3748;
+  --text-secondary: #4a5568;
+  --text-muted: #718096;
+  --bg-primary: #ffffff;
+  --bg-secondary: #f8f9fa;
+  --border-color: #e2e8f0;
+  --error-color: #dc3545;
+  --error-bg: #f8d7da;
+  --success-color: #28a745;
+  --help-color: #6c757d;
+  --help-bg: #f8f9fa;
+  --shadow-sm: 0 1px 3px rgba(0, 0, 0, 0.1);
+  --shadow-md: 0 4px 6px rgba(0, 0, 0, 0.1);
+  --shadow-lg: 0 10px 15px rgba(0, 0, 0, 0.1);
+  --transition: all 0.3s ease;
+  --radius: 8px;
+  --focus-ring: 0 0 0 3px rgba(0, 123, 255, 0.25);
+}
+
+/* Dark mode support */
+@media (prefers-color-scheme: dark) {
+  .register-page {
+    --text-primary: #f7fafc;
+    --text-secondary: #e2e8f0;
+    --text-muted: #a0aec0;
+    --bg-primary: #1a202c;
+    --bg-secondary: #2d3748;
+    --border-color: #4a5568;
+    --light-blue: rgba(0, 123, 255, 0.1);
+    --light-green: rgba(40, 167, 69, 0.1);
+    --error-bg: rgba(220, 53, 69, 0.1);
+    --help-bg: rgba(108, 117, 125, 0.1);
+  }
+}
+
+/* Main container */
+.register-page {
+  min-height: 100vh;
+  background: linear-gradient(135deg, var(--light-blue) 0%, var(--light-green) 100%);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 2rem 1rem;
+  position: relative;
+}
+
+.register-page::before {
+  content: '';
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background: radial-gradient(circle at 30% 20%, rgba(0, 123, 255, 0.1) 0%, transparent 50%),
+              radial-gradient(circle at 70% 80%, rgba(40, 167, 69, 0.1) 0%, transparent 50%);
+  pointer-events: none;
+}
+
+.register-container {
+  width: 100%;
+  max-width: 450px;
+  position: relative;
+  z-index: 1;
+}
+
+.register-card {
+  background: var(--bg-primary);
+  border-radius: var(--radius);
+  padding: 2.5rem;
+  box-shadow: var(--shadow-lg);
+  border: 1px solid var(--border-color);
+  animation: fadeInUp 0.6s ease-out;
+}
+
+/* Header */
+.register-header {
+  text-align: center;
+  margin-bottom: 2rem;
+}
+
+.register-logo {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-bottom: 1rem;
+}
+
+.logo-icon {
+  width: 60px;
+  height: 60px;
+  border-radius: 50%;
+  background: linear-gradient(135deg, var(--primary-blue), var(--primary-green));
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-bottom: 1rem;
+  position: relative;
+  overflow: hidden;
+}
+
+.logo-icon::before {
+  content: '';
+  position: absolute;
+  top: 0;
+  left: -100%;
+  width: 100%;
+  height: 100%;
+  background: linear-gradient(90deg, transparent, rgba(255, 255, 255, 0.2), transparent);
+  animation: shimmer 2s infinite;
+}
+
+.medical-cross {
+  font-size: 1.5rem;
+  color: white;
+  font-weight: bold;
+}
+
+.register-title {
+  font-size: 2rem;
+  font-weight: 700;
+  color: var(--text-primary);
+  margin: 0;
+  letter-spacing: -0.5px;
+}
+
+.register-subtitle {
+  color: var(--text-secondary);
+  margin: 0;
+  font-size: 0.875rem;
+  line-height: 1.4;
+}
+
+/* Form */
+.register-form {
+  display: flex;
+  flex-direction: column;
+  gap: 1.25rem;
+}
+
+.form-group {
+  display: flex;
+  flex-direction: column;
+  gap: 0.5rem;
+}
+
+.form-label {
+  font-weight: 600;
+  color: var(--text-primary);
+  font-size: 0.875rem;
+  margin: 0;
+}
+
+.form-input {
+  padding: 0.75rem;
+  border: 2px solid var(--border-color);
+  border-radius: var(--radius);
+  font-size: 1rem;
+  color: var(--text-primary);
+  background: var(--bg-primary);
+  transition: var(--transition);
+  outline: none;
+}
+
+.form-input:focus {
+  border-color: var(--primary-blue);
+  box-shadow: var(--focus-ring);
+}
+
+.form-input:hover:not(:focus) {
+  border-color: var(--primary-blue);
+}
+
+.form-input::placeholder {
+  color: var(--text-muted);
+}
+
+.form-input:disabled {
+  opacity: 0.6;
+  cursor: not-allowed;
+}
+
+.form-input-error {
+  border-color: var(--error-color);
+}
+
+.form-input-error:focus {
+  border-color: var(--error-color);
+  box-shadow: 0 0 0 3px rgba(220, 53, 69, 0.25);
+}
+
+.error-message {
+  color: var(--error-color);
+  font-size: 0.875rem;
+  margin: 0;
+  display: flex;
+  align-items: center;
+  gap: 0.25rem;
+}
+
+.error-message::before {
+  content: '⚠';
+  font-size: 0.75rem;
+}
+
+.help-text {
+  color: var(--help-color);
+  font-size: 0.75rem;
+  margin: 0;
+  display: flex;
+  align-items: center;
+  gap: 0.25rem;
+  line-height: 1.4;
+}
+
+.help-text::before {
+  content: 'ℹ';
+  font-size: 0.75rem;
+  color: var(--primary-blue);
+}
+
+/* Register Error */
+.register-error {
+  background: var(--error-bg);
+  border: 1px solid var(--error-color);
+  border-radius: var(--radius);
+  padding: 0.75rem;
+  color: var(--error-color);
+  font-size: 0.875rem;
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+  animation: shake 0.5s ease-in-out;
+}
+
+.error-icon {
+  font-size: 1rem;
+  font-weight: bold;
+}
+
+/* Register Button */
+.register-button {
+  background: linear-gradient(135deg, var(--primary-blue), var(--primary-green));
+  color: white;
+  border: none;
+  padding: 0.875rem 1.5rem;
+  border-radius: var(--radius);
+  font-size: 1rem;
+  font-weight: 600;
+  cursor: pointer;
+  transition: var(--transition);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 0.5rem;
+  position: relative;
+  overflow: hidden;
+  outline: none;
+  margin-top: 0.5rem;
+}
+
+.register-button::before {
+  content: '';
+  position: absolute;
+  top: 0;
+  left: -100%;
+  width: 100%;
+  height: 100%;
+  background: linear-gradient(90deg, transparent, rgba(255, 255, 255, 0.2), transparent);
+  transition: var(--transition);
+}
+
+.register-button:hover::before {
+  left: 100%;
+}
+
+.register-button:hover {
+  transform: translateY(-2px);
+  box-shadow: var(--shadow-md);
+}
+
+.register-button:active {
+  transform: translateY(0);
+}
+
+.register-button:focus {
+  box-shadow: var(--focus-ring);
+}
+
+.register-button:disabled {
+  opacity: 0.6;
+  cursor: not-allowed;
+  transform: none;
+}
+
+.register-button:disabled:hover {
+  transform: none;
+  box-shadow: none;
+}
+
+.button-arrow {
+  font-size: 1.25rem;
+  transition: var(--transition);
+}
+
+.register-button:hover .button-arrow {
+  transform: translateX(4px);
+}
+
+.register-button:disabled .button-arrow {
+  transform: none;
+}
+
+/* Footer */
+.register-footer {
+  text-align: center;
+  margin-top: 1.5rem;
+  padding-top: 1.5rem;
+  border-top: 1px solid var(--border-color);
+}
+
+.login-link {
+  color: var(--text-secondary);
+  font-size: 0.875rem;
+  margin: 0;
+}
+
+.login-link-text {
+  color: var(--primary-blue);
+  text-decoration: none;
+  font-weight: 600;
+  transition: var(--transition);
+}
+
+.login-link-text:hover {
+  color: var(--primary-green);
+  text-decoration: underline;
+}
+
+.login-link-text:focus {
+  outline: 2px solid var(--primary-blue);
+  outline-offset: 2px;
+  border-radius: 2px;
+}
+
+/* Animations */
+@keyframes fadeInUp {
+  from {
+    opacity: 0;
+    transform: translateY(20px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+@keyframes shimmer {
+  0% {
+    left: -100%;
+  }
+  100% {
+    left: 100%;
+  }
+}
+
+@keyframes shake {
+  0%, 100% {
+    transform: translateX(0);
+  }
+  25% {
+    transform: translateX(-5px);
+  }
+  75% {
+    transform: translateX(5px);
+  }
+}
+
+/* Responsive Design */
+@media (max-width: 768px) {
+  .register-page {
+    padding: 1rem;
+  }
+  
+  .register-card {
+    padding: 2rem;
+  }
+}
+
+@media (max-width: 480px) {
+  .register-page {
+    padding: 0.5rem;
+  }
+  
+  .register-card {
+    padding: 1.5rem;
+  }
+  
+  .register-title {
+    font-size: 1.75rem;
+  }
+  
+  .form-input {
+    font-size: 16px; /* Prevents zoom on iOS */
+  }
+  
+  .register-form {
+    gap: 1rem;
+  }
+}
+
+/* High contrast mode support */
+@media (prefers-contrast: high) {
+  .form-input {
+    border-width: 2px;
+  }
+  
+  .form-input:focus {
+    border-width: 3px;
+  }
+}
+
+/* Reduced motion support */
+@media (prefers-reduced-motion: reduce) {
+  * {
+    animation-duration: 0.01ms !important;
+    animation-iteration-count: 1 !important;
+    transition-duration: 0.01ms !important;
+  }
+  
+  .register-button:hover {
+    transform: none;
+  }
+  
+  .register-button:hover .button-arrow {
+    transform: none;
+  }
+}
