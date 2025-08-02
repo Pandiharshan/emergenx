@@ -112,7 +112,7 @@ const Dashboard = () => {
               className="action-button primary"
               onClick={handleStartNewTriage}
             >
-                              Start New Assessment
+              Start New Assessment
             </button>
           </div>
 
@@ -129,8 +129,8 @@ const Dashboard = () => {
           </div>
         </div>
 
-                      {/* Recent Assessment Summary */}
-              <div className="recent-triage-section">
+        {/* Recent Assessment Summary */}
+        <div className="recent-triage-section">
           <h2>Recent Assessment</h2>
           
           {error && (

@@ -28,7 +28,7 @@ const Home = () => {
     {
       icon: '🧠',
       title: 'Powered by AI',
-                    description: 'Advanced machine learning algorithms trained on medical data to provide accurate emergency assessment recommendations.'
+      description: 'Advanced machine learning algorithms trained on medical data to provide accurate emergency assessment recommendations.'
     }
   ];
 
