@@ -1,0 +1,15 @@
+README.md
+Server/config/db.js
+Server/index.js
+Server/package.json
+Server/routes/authRoutes.js
+Server/routes/triageRoutes.js
+client/package.json
+client/src/App.jsx
+client/src/components/Footer.jsx
+client/src/components/Header.jsx
+client/src/pages/Dashboard.jsx
+client/src/pages/Home.jsx
+client/src/pages/Triage.jsx
+client/src/services/triageService.js
+client/vite.config.js

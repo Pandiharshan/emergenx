@@ -1,0 +1,542 @@
+/* NotFound.css */
+
+/* Root Variables */
+:root {
+  --primary-color: #2c5aa0;
+  --secondary-color: #38a169;
+  --accent-color: #e53e3e;
+  --text-primary: #1a365d;
+  --text-secondary: #4a5568;
+  --bg-primary: #f8fdff;
+  --bg-secondary: #ffffff;
+  --border-color: #e2e8f0;
+  --shadow-light: 0 4px 20px rgba(44, 90, 160, 0.08);
+  --shadow-medium: 0 8px 30px rgba(44, 90, 160, 0.12);
+  --gradient-primary: linear-gradient(135deg, #f8fdff 0%, #e8f4fd 100%);
+  --gradient-accent: linear-gradient(135deg, #2c5aa0 0%, #3182ce 100%);
+}
+
+/* Dark Mode Variables */
+[data-theme="dark"] {
+  --primary-color: #4299e1;
+  --secondary-color: #48bb78;
+  --accent-color: #fc8181;
+  --text-primary: #f7fafc;
+  --text-secondary: #cbd5e0;
+  --bg-primary: #1a202c;
+  --bg-secondary: #2d3748;
+  --border-color: #4a5568;
+  --shadow-light: 0 4px 20px rgba(0, 0, 0, 0.3);
+  --shadow-medium: 0 8px 30px rgba(0, 0, 0, 0.4);
+  --gradient-primary: linear-gradient(135deg, #1a202c 0%, #2d3748 100%);
+  --gradient-accent: linear-gradient(135deg, #4299e1 0%, #63b3ed 100%);
+}
+
+/* Main Wrapper */
+.notfound-wrapper {
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  background: var(--gradient-primary);
+}
+
+.notfound-container {
+  flex: 1;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 2rem 1rem;
+  position: relative;
+  overflow: hidden;
+}
+
+.notfound-content {
+  max-width: 800px;
+  text-align: center;
+  position: relative;
+  z-index: 2;
+}
+
+/* Animated 404 Number */
+.error-number {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-bottom: 2rem;
+  gap: 1rem;
+}
+
+.digit-4 {
+  font-size: 8rem;
+  font-weight: 900;
+  color: var(--primary-color);
+  text-shadow: 0 4px 20px rgba(44, 90, 160, 0.3);
+  animation: digitBounce 2s ease-in-out infinite;
+}
+
+.digit-4.delay {
+  animation-delay: 0.3s;
+}
+
+.digit-0-container {
+  position: relative;
+  width: 120px;
+  height: 120px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.stethoscope-circle {
+  width: 100px;
+  height: 100px;
+  border: 4px solid var(--primary-color);
+  border-radius: 50%;
+  position: relative;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  animation: rotate 10s linear infinite;
+}
+
+.stethoscope-inner {
+  width: 60px;
+  height: 60px;
+  border: 2px solid var(--secondary-color);
+  border-radius: 50%;
+  position: relative;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.pulse-ring {
+  position: absolute;
+  width: 80px;
+  height: 80px;
+  border: 2px solid var(--accent-color);
+  border-radius: 50%;
+  animation: pulse 2s ease-out infinite;
+  opacity: 0;
+}
+
+.pulse-ring.delay-1 {
+  animation-delay: 0.5s;
+}
+
+.pulse-ring.delay-2 {
+  animation-delay: 1s;
+}
+
+/* Medical Illustration */
+.medical-illustration {
+  margin: 2rem 0;
+  position: relative;
+}
+
+.medical-cross {
+  position: relative;
+  width: 80px;
+  height: 80px;
+  margin: 0 auto 1rem;
+}
+
+.cross-horizontal,
+.cross-vertical {
+  background: var(--accent-color);
+  position: absolute;
+  border-radius: 4px;
+  animation: crossGlow 3s ease-in-out infinite;
+}
+
+.cross-horizontal {
+  width: 60px;
+  height: 12px;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.cross-vertical {
+  width: 12px;
+  height: 60px;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.heartbeat-line {
+  margin: 2rem 0;
+}
+
+.heartbeat-svg {
+  width: 100%;
+  max-width: 400px;
+  height: 60px;
+  color: var(--primary-color);
+}
+
+.heartbeat-path {
+  animation: heartbeat 2s ease-in-out infinite;
+  stroke-dasharray: 400;
+  stroke-dashoffset: 400;
+}
+
+/* Error Message */
+.error-message {
+  margin: 2rem 0;
+}
+
+.error-title {
+  font-size: 2.5rem;
+  font-weight: 700;
+  color: var(--text-primary);
+  margin-bottom: 1rem;
+  letter-spacing: -0.5px;
+}
+
+.error-description {
+  font-size: 1.1rem;
+  color: var(--text-secondary);
+  line-height: 1.6;
+  margin-bottom: 1.5rem;
+  max-width: 500px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.redirect-notice {
+  background: var(--bg-secondary);
+  border: 1px solid var(--border-color);
+  border-radius: 12px;
+  padding: 1rem;
+  margin: 1rem 0;
+  box-shadow: var(--shadow-light);
+  animation: slideIn 0.5s ease-out;
+}
+
+.redirect-icon {
+  font-size: 2rem;
+  margin-bottom: 0.5rem;
+}
+
+.redirect-notice p {
+  color: var(--text-secondary);
+  margin: 0;
+  font-size: 0.95rem;
+}
+
+/* Action Buttons */
+.action-buttons {
+  display: flex;
+  gap: 1rem;
+  justify-content: center;
+  flex-wrap: wrap;
+  margin-top: 2rem;
+}
+
+.btn {
+  display: inline-flex;
+  align-items: center;
+  gap: 0.5rem;
+  padding: 0.75rem 2rem;
+  border: none;
+  border-radius: 8px;
+  font-size: 1rem;
+  font-weight: 600;
+  cursor: pointer;
+  transition: all 0.3s ease;
+  text-decoration: none;
+  position: relative;
+  overflow: hidden;
+  min-width: 160px;
+  justify-content: center;
+}
+
+.btn:focus {
+  outline: 2px solid var(--primary-color);
+  outline-offset: 2px;
+}
+
+.btn-primary {
+  background: var(--gradient-accent);
+  color: white;
+  box-shadow: 0 2px 10px rgba(44, 90, 160, 0.2);
+}
+
+.btn-primary:hover {
+  transform: translateY(-2px);
+  box-shadow: 0 4px 20px rgba(44, 90, 160, 0.3);
+}
+
+.btn-secondary {
+  background: var(--bg-secondary);
+  color: var(--primary-color);
+  border: 2px solid var(--primary-color);
+}
+
+.btn-secondary:hover {
+  background: var(--primary-color);
+  color: white;
+  transform: translateY(-2px);
+  box-shadow: 0 4px 20px rgba(44, 90, 160, 0.3);
+}
+
+.btn-icon {
+  font-size: 1.1rem;
+}
+
+/* Floating Medical Icons */
+.floating-icons {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  pointer-events: none;
+  z-index: 1;
+}
+
+.floating-icon {
+  position: absolute;
+  font-size: 2rem;
+  opacity: 0.1;
+  animation: float 8s ease-in-out infinite;
+}
+
+.floating-icon.icon-1 {
+  top: 10%;
+  left: 10%;
+  animation-delay: 0s;
+}
+
+.floating-icon.icon-2 {
+  top: 20%;
+  right: 15%;
+  animation-delay: 1s;
+}
+
+.floating-icon.icon-3 {
+  bottom: 30%;
+  left: 5%;
+  animation-delay: 2s;
+}
+
+.floating-icon.icon-4 {
+  bottom: 20%;
+  right: 10%;
+  animation-delay: 3s;
+}
+
+.floating-icon.icon-5 {
+  top: 50%;
+  left: 5%;
+  animation-delay: 4s;
+}
+
+/* Animations */
+@keyframes digitBounce {
+  0%, 100% {
+    transform: translateY(0);
+  }
+  50% {
+    transform: translateY(-20px);
+  }
+}
+
+@keyframes rotate {
+  0% {
+    transform: rotate(0deg);
+  }
+  100% {
+    transform: rotate(360deg);
+  }
+}
+
+@keyframes pulse {
+  0% {
+    transform: scale(0.8);
+    opacity: 1;
+  }
+  100% {
+    transform: scale(1.4);
+    opacity: 0;
+  }
+}
+
+@keyframes crossGlow {
+  0%, 100% {
+    box-shadow: 0 0 10px rgba(229, 62, 62, 0.3);
+  }
+  50% {
+    box-shadow: 0 0 20px rgba(229, 62, 62, 0.6);
+  }
+}
+
+@keyframes heartbeat {
+  0% {
+    stroke-dashoffset: 400;
+  }
+  50% {
+    stroke-dashoffset: 0;
+  }
+  100% {
+    stroke-dashoffset: -400;
+  }
+}
+
+@keyframes slideIn {
+  from {
+    opacity: 0;
+    transform: translateY(20px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+@keyframes float {
+  0%, 100% {
+    transform: translateY(0) rotate(0deg);
+  }
+  25% {
+    transform: translateY(-20px) rotate(90deg);
+  }
+  50% {
+    transform: translateY(-10px) rotate(180deg);
+  }
+  75% {
+    transform: translateY(-15px) rotate(270deg);
+  }
+}
+
+/* Responsive Design */
+@media (max-width: 768px) {
+  .notfound-container {
+    padding: 1rem 0.5rem;
+  }
+
+  .error-number {
+    margin-bottom: 1.5rem;
+  }
+
+  .digit-4 {
+    font-size: 5rem;
+  }
+
+  .digit-0-container {
+    width: 80px;
+    height: 80px;
+  }
+
+  .stethoscope-circle {
+    width: 70px;
+    height: 70px;
+  }
+
+  .stethoscope-inner {
+    width: 40px;
+    height: 40px;
+  }
+
+  .pulse-ring {
+    width: 60px;
+    height: 60px;
+  }
+
+  .error-title {
+    font-size: 2rem;
+  }
+
+  .error-description {
+    font-size: 1rem;
+  }
+
+  .action-buttons {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .btn {
+    width: 100%;
+    max-width: 250px;
+  }
+
+  .medical-cross {
+    width: 60px;
+    height: 60px;
+  }
+
+  .cross-horizontal {
+    width: 40px;
+    height: 8px;
+  }
+
+  .cross-vertical {
+    width: 8px;
+    height: 40px;
+  }
+
+  .heartbeat-svg {
+    height: 40px;
+  }
+
+  .floating-icon {
+    font-size: 1.5rem;
+  }
+}
+
+@media (max-width: 480px) {
+  .digit-4 {
+    font-size: 4rem;
+  }
+
+  .digit-0-container {
+    width: 60px;
+    height: 60px;
+  }
+
+  .stethoscope-circle {
+    width: 50px;
+    height: 50px;
+  }
+
+  .stethoscope-inner {
+    width: 30px;
+    height: 30px;
+  }
+
+  .pulse-ring {
+    width: 40px;
+    height: 40px;
+  }
+
+  .error-title {
+    font-size: 1.75rem;
+  }
+
+  .error-description {
+    font-size: 0.9rem;
+  }
+
+  .btn {
+    padding: 0.625rem 1.5rem;
+    font-size: 0.9rem;
+  }
+
+  .floating-icon {
+    font-size: 1.2rem;
+  }
+}
+
+/* Accessibility Improvements */
+@media (prefers-reduced-motion: reduce) {
+  *,
+  *::before,
+  *::after {
+    animation-duration: 0.01ms !important;
+    animation-iteration-count: 1 !important;
+    transition-duration: 0.01ms !important;
+  }
+}

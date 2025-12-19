@@ -1,0 +1,324 @@
+/* Footer.css */
+
+/* Using the same CSS variables as Header for consistency */
+:root {
+  --primary-color: #2563eb;
+  --primary-hover: #1d4ed8;
+  --secondary-color: #059669;
+  --secondary-hover: #047857;
+  --accent-color: #dc2626;
+  --accent-hover: #b91c1c;
+  --text-primary: #1f2937;
+  --text-secondary: #6b7280;
+  --text-muted: #9ca3af;
+  --text-light: #ffffff;
+  --bg-primary: #ffffff;
+  --bg-secondary: #f9fafb;
+  --bg-dark: #1f2937;
+  --border-color: #e5e7eb;
+  --shadow-sm: 0 1px 2px 0 rgba(0, 0, 0, 0.05);
+  --shadow-md: 0 4px 6px -1px rgba(0, 0, 0, 0.1);
+  --transition: all 0.3s ease;
+}
+
+/* Dark mode variables */
+[data-theme="dark"] {
+  --text-primary: #f9fafb;
+  --text-secondary: #d1d5db;
+  --text-muted: #9ca3af;
+  --bg-primary: #1f2937;
+  --bg-secondary: #374151;
+  --bg-dark: #111827;
+  --border-color: #374151;
+}
+
+/* Footer base styles */
+.footer {
+  background: var(--bg-primary);
+  border-top: 1px solid var(--border-color);
+  margin-top: auto;
+  padding: 2rem 0 1.5rem;
+  position: relative;
+  transition: var(--transition);
+}
+
+.footer-container {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 0 1rem;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 1.5rem;
+}
+
+/* Footer Navigation */
+.footer-nav {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+}
+
+.footer-links {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  gap: 0.5rem;
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+.footer-links li {
+  position: relative;
+}
+
+.footer-links li:not(:last-child)::after {
+  content: '•';
+  color: var(--text-muted);
+  margin-left: 0.75rem;
+  font-size: 0.875rem;
+  pointer-events: none;
+}
+
+.footer-link {
+  display: inline-block;
+  padding: 0.375rem 0.75rem;
+  color: var(--text-secondary);
+  text-decoration: none;
+  font-size: 0.875rem;
+  font-weight: 500;
+  border-radius: 4px;
+  transition: var(--transition);
+  position: relative;
+  overflow: hidden;
+}
+
+.footer-link::before {
+  content: '';
+  position: absolute;
+  bottom: 0;
+  left: 50%;
+  width: 0;
+  height: 1px;
+  background: var(--primary-color);
+  transition: var(--transition);
+  transform: translateX(-50%);
+}
+
+.footer-link:hover {
+  color: var(--primary-color);
+  background: var(--bg-secondary);
+  transform: translateY(-1px);
+}
+
+.footer-link:hover::before {
+  width: 80%;
+}
+
+.footer-link:focus {
+  outline: 2px solid var(--primary-color);
+  outline-offset: 2px;
+}
+
+.footer-link:active {
+  transform: translateY(0);
+}
+
+/* Copyright section */
+.footer-copyright {
+  text-align: center;
+}
+
+.copyright-text {
+  color: var(--text-muted);
+  font-size: 0.875rem;
+  margin: 0;
+  font-weight: 400;
+  letter-spacing: 0.025em;
+}
+
+/* Tagline section */
+.footer-tagline {
+  text-align: center;
+  opacity: 0.8;
+}
+
+.tagline-text {
+  color: var(--text-muted);
+  font-size: 0.75rem;
+  margin: 0;
+  font-weight: 400;
+  font-style: italic;
+  letter-spacing: 0.025em;
+}
+
+/* Responsive design */
+@media (max-width: 768px) {
+  .footer {
+    padding: 1.5rem 0 1rem;
+  }
+  
+  .footer-container {
+    gap: 1rem;
+    padding: 0 0.75rem;
+  }
+  
+  .footer-links {
+    flex-direction: column;
+    gap: 0.25rem;
+  }
+  
+  .footer-links li:not(:last-child)::after {
+    display: none;
+  }
+  
+  .footer-link {
+    padding: 0.5rem 1rem;
+    font-size: 0.875rem;
+  }
+  
+  .copyright-text {
+    font-size: 0.8125rem;
+  }
+  
+  .tagline-text {
+    font-size: 0.6875rem;
+  }
+}
+
+@media (max-width: 480px) {
+  .footer {
+    padding: 1rem 0 0.75rem;
+  }
+  
+  .footer-container {
+    padding: 0 0.5rem;
+    gap: 0.75rem;
+  }
+  
+  .footer-link {
+    padding: 0.375rem 0.75rem;
+    font-size: 0.8125rem;
+  }
+  
+  .copyright-text {
+    font-size: 0.75rem;
+  }
+  
+  .tagline-text {
+    font-size: 0.625rem;
+  }
+}
+
+/* Animation preferences */
+@media (prefers-reduced-motion: reduce) {
+  .footer-link,
+  .footer-link::before {
+    transition: none;
+  }
+  
+  .footer-link:hover {
+    transform: none;
+  }
+}
+
+/* High contrast mode support */
+@media (prefers-contrast: high) {
+  .footer {
+    border-top: 2px solid var(--border-color);
+  }
+  
+  .footer-link::before {
+    height: 2px;
+  }
+}
+
+/* Focus visible for better keyboard navigation */
+.footer-link:focus-visible {
+  outline: 2px solid var(--primary-color);
+  outline-offset: 2px;
+}
+
+/* Hover effects for touch devices */
+@media (hover: hover) {
+  .footer-link:hover {
+    background: var(--bg-secondary);
+  }
+}
+
+/* Print styles */
+@media print {
+  .footer {
+    border-top: 1px solid #000;
+    background: transparent;
+    padding: 1rem 0;
+  }
+  
+  .footer-nav {
+    display: none;
+  }
+  
+  .footer-tagline {
+    display: none;
+  }
+  
+  .copyright-text {
+    color: #000;
+    font-size: 0.75rem;
+  }
+}
+
+/* Ensure footer sticks to bottom when content is short */
+.footer {
+  margin-top: auto;
+}
+
+/* Subtle gradient background for enhanced visual appeal */
+.footer::before {
+  content: '';
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  height: 1px;
+  background: linear-gradient(
+    90deg,
+    transparent,
+    var(--primary-color),
+    transparent
+  );
+  opacity: 0.3;
+}
+
+/* Accessibility improvements */
+.footer-link[aria-current="page"] {
+  color: var(--primary-color);
+  font-weight: 600;
+}
+
+/* Smooth scrolling for anchor links */
+html {
+  scroll-behavior: smooth;
+}
+
+/* Ensure proper contrast ratios */
+.footer-link:focus,
+.footer-link:hover {
+  background: var(--bg-secondary);
+  color: var(--primary-color);
+}
+
+/* Loading state for links (optional) */
+.footer-link:active {
+  opacity: 0.8;
+}
+
+/* Theme transition smoothness */
+.footer,
+.footer-link,
+.copyright-text,
+.tagline-text {
+  transition: var(--transition);
+}
